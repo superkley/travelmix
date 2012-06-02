@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<link rel="shortcut icon" href="img/favicon.ico" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>无阻导航</title>
+<script type="text/javascript" src="js/jquery_1.6.1.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.14.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.ui.datetime.min.js"></script>
+<link href="css/travelmix_screen.css" media="screen" rel="stylesheet" type="text/css" />
+<link type="text/css" href="css/ui-lightness/jquery-ui-1.8.14.custom.css" rel="stylesheet" />
+<link type="text/css" href="css/ui-lightness/jquery.ui.datetime.css" rel="stylesheet" />
+</head>
+<body>
+<div id="mapContainer">
+<div id="map"></div>
+</div>
+<div id="datetimePanel" class="ui-widget-header">出发时间：&nbsp;<input id="datetime" style="width: 120px;" /></div>
+<div id="routingPanel" title="导航结果"></div>
+<script src="http://tile.cloudmade.com/wml/latest/web-maps-lite.js" type="text/javascript"></script>
+<script src="js/web-maps-helper_0.8.js" type="text/javascript"></script>
+<script src="js/travelmix.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var datetime;
+
+    MapState.config = {
+        center : new CM.LatLng(49.4833, 8.48333),
+        zoom : 14,
+        styleId : 38800
+    };
+
+    $('#routingPanel').dialog({
+        autoOpen : false,
+        resizable : true,
+        width : 500,
+        height : 550,
+        zIndex : 500,
+        position : [ 'right', 'top' ]
+    });
+
+    MapState.initMapContols = function(map) {
+        var largeMapControl = new CM.LargeMapControl()
+        largeMapControl.zoomLabelConfig = {
+            17 : "住宅",
+            14 : "小区",
+            11 : "省市",
+            7 : "国家",
+            4 : "地域"
+        };
+        map.addControl(largeMapControl);
+        map.addControl(new CM.ScaleControl());
+        map.enableMouseZoom();
+        map.enableShiftDragZoom();
+
+        MapState.routingRequest = createRoutingRequest(map);
+
+        CM.Event.addListener(MapState.map, 'click', function(latlng) {
+            if (!MapState.routingRequest.setLatLng(latlng)) {
+                // nothing happens
+            }
+        });
+
+        CM.Event.addListener(MapState.routingRequest.getOriginMarker(), 'dragend', function() {
+            MapState.routingRequest.query();
+        });
+
+        CM.Event.addListener(MapState.routingRequest.getDestinationMarker(), 'dragend', function() {
+            MapState.routingRequest.query();
+        });
+    };
+
+    MapState.initCustomEvent = function(map) {
+        //CM.Event.addListener(map, 'zoomend', Layout.update_lat_lng);
+        //CM.Event.addListener(map, 'moveend', Layout.update_lat_lng);
+    };
+
+    $(document).ready(function() {
+        MapState.init('map', {
+            "lng" : MapState.config.center._lng,
+            "lat" : MapState.config.center._lat,
+            "zoom" : MapState.config.zoom,
+            "styleId" : MapState.config.styleId,
+            "api_key" : "8ee2a50541944fb9bcedded5165f09d9",
+            "tile_server_url" : "http:\/\/tile.cloudmade.com",
+            "subdomains" : "abc"
+        }, false);
+    });
+
+    $(function() {
+        datetime = $('#datetime').datetime({
+            value : '+1min',
+            minDate : '+1min',
+            maxDate : '+1year'
+        });
+        datetime.bind("keydown", function(e) {
+            if (e.keyCode == 13 || e.keyCode == 27) {
+                if (MapState && MapState.routingRequest) {
+                    MapState.routingRequest.query();
+                }
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

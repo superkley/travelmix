@@ -1,0 +1,74 @@
+{
+  version:0.3,
+  status: 0 - OK, 1 - Error,
+  status_message: Error message string,
+  route_summary: {
+     total_distance: Distance in meters,
+     start_point: Name of the start point of the route,
+     end_point: Name of the end point of the route,
+     total_time: Estimated time in seconds,
+     transit_points: [[point_name,lat,lon],...,[point_nameN,latN,lonN]] - Transit points if they are present in request.
+  },
+  route_geometry: [Array of nodes from start to end in 4326 projection ([lat1,lon1],...,[latM,lonM])]
+  route_instructions: [[instruction, length, position, length_caption, earth_direction, azimuth, turn_type, turn_angle ],...,[instructionN, lengthN, ...]]
+}
+  
+getRoute1({
+    "version" : 0.3,
+    "status" : 0,
+    "route_summary" : {
+        "total_distance" : 1451,
+        "total_time" : 156,
+        "start_point" : "Weymouth Street",
+        "end_point" : "Whitfield Street"
+    },
+    "route_geometry" : [ [ 51.52039, -0.1485 ], [ 51.52039, -0.14849 ], [ 51.520531, -0.14769 ], [ 51.520649, -0.14698 ], [ 51.520748, -0.14639 ],
+            [ 51.520908, -0.14544 ], [ 51.520939, -0.14523 ], [ 51.51973, -0.14471 ], [ 51.519161, -0.14446 ], [ 51.51849, -0.14418 ],
+            [ 51.51828, -0.14403 ], [ 51.518131, -0.14386 ], [ 51.518002, -0.14363 ], [ 51.51796, -0.14354 ], [ 51.517899, -0.14337 ],
+            [ 51.51783, -0.1432 ], [ 51.51778, -0.1431 ], [ 51.517681, -0.14301 ], [ 51.51754, -0.14293 ], [ 51.517342, -0.14284 ],
+            [ 51.51754, -0.14161 ], [ 51.517792, -0.14035 ], [ 51.517799, -0.14031 ], [ 51.517799, -0.14027 ], [ 51.517818, -0.14019 ],
+            [ 51.51799, -0.13918 ], [ 51.518311, -0.13843 ], [ 51.51862, -0.13763 ], [ 51.5187, -0.13741 ], [ 51.518761, -0.13726 ],
+            [ 51.518791, -0.13716 ], [ 51.51886, -0.13699 ], [ 51.519119, -0.13628 ], [ 51.519169, -0.13615 ], [ 51.51936, -0.13566 ],
+            [ 51.51984, -0.13615 ], [ 51.520081, -0.13643 ], [ 51.52029, -0.13591 ], [ 51.5205, -0.13537 ], [ 51.520248, -0.13512 ] ],
+    "route_instructions" : [ [ "Head east on Weymouth Street", 235, 0, 56, "0.2 km", "E", 90.0 ],
+            [ "Turn right at Portland Place", 512, 6, 26, "0.5 km", "S", 164.8, "TR", 89.9 ],
+            [ "Turn left at A5204\/Mortimer Street", 271, 19, 13, "0.3 km", "E", 75.3, "TL", 270.5 ],
+            [ "Continue on A5204\/Mortimer Street", 328, 21, 16, "0.3 km", "E", 77.7, "C", 5.2 ],
+            [ "Continue on A5204\/Goodge Street", 91, 32, 4, "91 m", "NE", 59.4, "C", 0.4 ],
+            [ "Turn left at Charlotte Street", 129, 34, 31, "0.1 km", "NW", 326.9, "TL", 268.9 ],
+            [ "Turn right at Tottenham Street", 131, 36, 31, "0.1 km", "NE", 57.1, "TR", 91.7 ],
+            [ "Turn right at Whitfield Street", 33, 38, 8, "33 m", "SE", 147.2, "TR", 88.9 ] ]
+});
+
+Fields in route_instructions items(segments) are:
+
+    * instruction, String - text instruction, e.g. Turn left at Oxford Street
+    * length, double - length of the segment in meters
+    * position, int - index of the first point of the segment in route_geometry
+    * length_caption, String - length of the segments in specified units e.g. 22m, 23.4 km, 14.4 miles
+    * earth_direction, String - earth direction code of the start of the segment (now only 8 directions are supported, N, NE, E, SE, S, SW, W, NW)
+    * azimuth, double - north-based azimuth
+    * turn_type, String - code of the turn type, optional, absent for the first segment:
+          o - C - continue (go straight)
+          o - TL - turn left
+          o - TSLL - turn slight left
+          o - TSHL - turn sharp left
+          o - TR - turn right
+          o - TSLR - turn slight right
+          o - TSHR - turn sharp right
+          o - TU - U-turn
+    * turn_angle - angle in degress of the turn between two segments, 0 for go straight, 90 for turn right, 270 for turn left, 180 for U-turn
+
+Sample response:
+
+{
+  "status":0,
+  "route_instructions":[
+    ["Head south on Perckhoevelaan",111,0,13,"0.1 km","S",160.6],
+    ["Turn left at Laarstraat",112,3,13,"0.1 km","NE",58.1,"TL",269.0],
+    ["Turn right at Goudenregenlaan",70,5,8,"70 m","SE",143.4,"TR",89.8]
+   ],
+  "route_summary":{"total_time":34,"total_distance":293,"end_point":"Goudenregenlaan","start_point":"Perckhoevelaan"},
+  "route_geometry":[[51.17702,4.3963],[51.17656,4.39655],[51.17639,4.3967],[51.17612,4.39696],[51.1764,4.39767],[51.17668,4.39828],[51.17628,4.39874],[51.17618,4.39888]],
+  "version":"0.3"
+}

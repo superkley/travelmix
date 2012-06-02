@@ -1,0 +1,3 @@
+http://www.geobytes.com/IpLocator.htm?GetLocation&template=json.txt&ipaddress=203.30.195.10
+
+{"geobytes":{ "countryid":14, "country":"Australia", "fips":"AS", "iso2":"AU", "iso3":"AUS", "ison":36, "internet":"AU", "comment":"ISO includes Ashmore and Cartier Islands,Coral Sea Islands", "regionid":3, "region":"Queensland", "code":"QL", "adm":"AS04", "cityid":1268, "city":"Brisbane", "latitude":-27.5000, "longitude":153.0170, "timezone":"+10:00", "dmaid":"", "dma":"", "market":"", "certainty":90, "locationcode":"AUQLBRIS", "ipaddress":"203.30.195.10" }} 

@@ -1,0 +1,25 @@
+XML_DM_REQUEST: Berechnung des Abfahrts- oder Ankunftsmonitors aller oder ausgewählter Linien einer Haltestelle.
+XML_STOPFINDER_REQUEST: Ermitteln von Haltestellen.
+XML_GEOOBJECT_REQUEST: Anfrage von Linien-Koordinaten
+XML_TRIP_REQUEST2: Berechnung von Fahrten von A nach B ggf. über Zwischenpunkte
+
+karlsruhe, hf -> mannheim, hbf
+http://fahrplanauskunft.vrn.de/vrn_mobile/XSLT_TRIP_REQUEST2?lineRestriction=403&ptOptionsActive=1&type_destination=stopID&type_origin=stopID&useRealtime=1&name_destination=6002417&name_origin=7000402
+
+public-transport-enabler
+
+public WGS84Point convertToWGS84(WGS84Point point)
+        {
+            double xArg = point.getLon();
+            double yArg = point.getLat();
+            double lambda, phi;
+            lambda = (180.0 / 3.141592653589793240) * (xArg / 6371000.0 + 0.0);
+            phi = (180.0 / 3.141592653589793240)
+                * (Math.atan(Math.exp(yArg / 6371000.0)) - (3.141592653589793240 / 4.0)) / 0.5;
+            xArg = lambda;
+            yArg = phi;
+            WGS84Point result = new WGS84Point();
+            result.setLat(xArg);
+            result.setLon(yArg);
+            return result;
+        }

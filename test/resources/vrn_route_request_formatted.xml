@@ -1,0 +1,2694 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<itdRequest version="9.16.25.16" language="de" lengthUnit="METER" sessionID="VRN9_375644900" client="Firefox" clientIP="134.155.250.142" serverID="VRN9_3"
+  virtDir="vrn_mobile" now="2011-06-14T00:33:05" nowWD="3"
+>
+  <clientHeaderLines>
+    <headerLine>
+      <name>DNT</name>
+      <value>1</value>
+    </headerLine>
+    <headerLine>
+      <name>ACCEPT</name>
+      <value>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</value>
+    </headerLine>
+    <headerLine>
+      <name>HOST</name>
+      <value>fahrplanauskunft.vrn.de</value>
+    </headerLine>
+    <headerLine>
+      <name>USER-AGENT</name>
+      <value>Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15</value>
+    </headerLine>
+    <headerLine>
+      <name>ACCEPT-LANGUAGE</name>
+      <value>en,zh-cn;q=0.7,de;q=0.3</value>
+    </headerLine>
+    <headerLine>
+      <name>ACCEPT-CHARSET</name>
+      <value>ISO-8859-1,utf-8;q=0.7,*;q=0.7</value>
+    </headerLine>
+    <headerLine>
+      <name>CONNECTION</name>
+      <value>keep-alive</value>
+    </headerLine>
+    <headerLine>
+      <name>ACCEPT-ENCODING</name>
+      <value>gzip,deflate</value>
+    </headerLine>
+    <headerLine>
+      <name>KEEP-ALIVE</name>
+      <value>115</value>
+    </headerLine>
+  </clientHeaderLines>
+  <serverMetaInfo>
+    <serviceAreaInfo>
+      <serviceArea name="" net="b_w" selected="1" />
+      <serviceArea name="" net="999" selected="1" />
+      <serviceArea name="" net="0" selected="1" />
+      <serviceArea name="" net="1" selected="1" />
+      <serviceArea name="" net="2" selected="1" />
+      <serviceArea name="" net="3" selected="1" />
+      <serviceArea name="" net="4" selected="1" />
+      <serviceArea name="" net="5" selected="1" />
+      <serviceArea name="" net="6" selected="1" />
+      <serviceArea name="" net="7" selected="1" />
+      <serviceArea name="" net="8" selected="1" />
+      <serviceArea name="" net="9" selected="1" />
+      <serviceArea name="" net="10" selected="1" />
+      <serviceArea name="" net="11" selected="1" />
+      <serviceArea name="" net="12" selected="1" />
+      <serviceArea name="" net="13" selected="1" />
+      <serviceArea name="" net="14" selected="1" />
+      <serviceArea name="" net="15" selected="1" />
+      <serviceArea name="" net="219" selected="1" />
+      <serviceArea name="" net="Schweden" selected="1" />
+      <serviceArea name="" net="Deutsche Bahn" selected="1" />
+      <serviceArea name="" net="Luxemburg" selected="1" />
+      <serviceArea name="" net="Dänemark" selected="1" />
+      <serviceArea name="" net="Warschau" selected="1" />
+      <serviceArea name="" net="Skane/Malmö" selected="1" />
+      <serviceArea name="" net="Stockholm" selected="1" />
+      <serviceArea name="" net="Västtrafik" selected="1" />
+      <serviceArea name="" net="Berlin-Brandenburg" selected="1" />
+      <serviceArea name="" net="Rhein-Neckar" selected="1" />
+      <serviceArea name="" net="Baden-Württemberg" selected="1" />
+      <serviceArea name="" net="Norddeutschland" selected="1" />
+      <serviceArea name="" net="Hamburg" selected="1" />
+      <serviceArea name="" net="Bremen" selected="1" />
+      <serviceArea name="" net="Schleswig-Holstein" selected="1" />
+      <serviceArea name="" net="Niedersachsen" selected="1" />
+      <serviceArea name="" net="Saarland" selected="1" />
+      <serviceArea name="" net="Alsace" selected="1" />
+      <serviceArea name="" net="Dummy" selected="1" />
+      <serviceArea name="" net="Internationale Flughäfen" selected="1" />
+      <serviceArea name="" net="Alle Regionen" selected="1" />
+      <serviceArea name="" net="999" selected="1" />
+      <serviceArea name="" net="Schweden" selected="1" />
+      <serviceArea name="" net="Deutsche Bahn" selected="1" />
+      <serviceArea name="" net="Luxemburg" selected="1" />
+      <serviceArea name="" net="Dänemark" selected="1" />
+      <serviceArea name="" net="Warschau" selected="1" />
+      <serviceArea name="" net="Skane/Malmö" selected="1" />
+      <serviceArea name="" net="Stockholm" selected="1" />
+      <serviceArea name="" net="Västtrafik" selected="1" />
+      <serviceArea name="" net="Berlin-Brandenburg" selected="1" />
+      <serviceArea name="" net="Rhein-Neckar" selected="1" />
+      <serviceArea name="" net="Baden-Württemberg" selected="1" />
+      <serviceArea name="" net="Norddeutschland" selected="1" />
+      <serviceArea name="" net="Hamburg" selected="1" />
+      <serviceArea name="" net="Bremen" selected="1" />
+      <serviceArea name="" net="Schleswig-Holstein" selected="1" />
+      <serviceArea name="" net="Niedersachsen" selected="1" />
+      <serviceArea name="" net="Saarland" selected="1" />
+      <serviceArea name="" net="Alsace" selected="1" />
+      <serviceArea name="" net="Dummy" selected="1" />
+      <serviceArea name="" net="Internationale Flughäfen" selected="1" />
+      <serviceArea name="" net="Alle Regionen" selected="1" />
+    </serviceAreaInfo>
+  </serverMetaInfo>
+  <itdTripRequest requestID="1">
+    <itdOdv type="coord" usage="origin" anyObjFilter="0">
+      <itdOdvPlace state="identified">
+        <odvPlaceInput></odvPlaceInput>
+      </itdOdvPlace>
+      <itdOdvName state="identified" method="auto">
+        <odvNameElem x="8477293" y="49496560" mapName="WGS84" value="8477293:49496560:WGS84:Start" matchQuality="0">Start</odvNameElem>
+        <odvNameInput>8.477297:49.496561:WGS84:Start</odvNameInput>
+      </itdOdvName>
+      <itdOdvAssignedStops select="0">
+        <itdOdvAssignedStop stopID="6005548" x="8473491" y="49495832" mapName="WGS84" value="6005548:Alte Feuerwache" place="Mannheim"
+          nameWithPlace="Mannheim, Alte Feuerwache" distance="334" distanceTime="4" isTransferStop="0"
+        >Alte Feuerwache</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6005590" x="8479593" y="49494475" mapName="WGS84" value="6005590:Schafweide" place="Mannheim"
+          nameWithPlace="Mannheim, Schafweide" distance="380" distanceTime="5" isTransferStop="0"
+        >Schafweide</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6002424" x="8480233" y="49499234" mapName="WGS84" value="6002424:Ida-Scipio-Heim" place="Mannheim"
+          nameWithPlace="Mannheim, Ida-Scipio-Heim" distance="475" distanceTime="7" isTransferStop="0"
+        >Ida-Scipio-Heim</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6002439" x="8475935" y="49499701" mapName="WGS84" value="6002439:Max-Joseph-Straße" place="Mannheim"
+          nameWithPlace="Mannheim, Max-Joseph-Straße" distance="487" distanceTime="7" isTransferStop="0"
+        >Max-Joseph-Straße</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6002442" x="8483896" y="49498774" mapName="WGS84" value="6002442:Moselstraße" place="Mannheim"
+          nameWithPlace="Mannheim, Moselstraße" distance="702" distanceTime="10" isTransferStop="0"
+        >Moselstraße</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6002569" x="8476932" y="49491577" mapName="WGS84" value="6002569:Collini-Center" place="Mannheim"
+          nameWithPlace="Mannheim, Collini-Center" distance="702" distanceTime="10" isTransferStop="0"
+        >Collini-Center</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6002427" x="8470425" y="49493391" mapName="WGS84" value="6002427:Kurpfalzbrücke" place="Mannheim"
+          nameWithPlace="Mannheim, Kurpfalzbrücke" distance="709" distanceTime="10" isTransferStop="0"
+        >Kurpfalzbrücke</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6002410" x="8471360" y="49500219" mapName="WGS84" value="6002410:Carl-Benz-Straße" place="Mannheim"
+          nameWithPlace="Mannheim, Carl-Benz-Straße" distance="735" distanceTime="10" isTransferStop="0"
+        >Carl-Benz-Straße</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6005544" x="8484074" y="49493668" mapName="WGS84" value="6005544:Universitätsklinikum" place="Mannheim"
+          nameWithPlace="Mannheim, Universitätsklinikum" distance="740" distanceTime="11" isTransferStop="0"
+        >Universitätsklinikum</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6005550" x="8467689" y="49498818" mapName="WGS84" value="6005550:Neumarkt" place="Mannheim"
+          nameWithPlace="Mannheim, Neumarkt" distance="785" distanceTime="11" isTransferStop="0"
+        >Neumarkt</itdOdvAssignedStop>
+      </itdOdvAssignedStops>
+    </itdOdv>
+    <itdOdv type="coord" usage="destination" anyObjFilter="0">
+      <itdOdvPlace state="identified">
+        <odvPlaceInput></odvPlaceInput>
+      </itdOdvPlace>
+      <itdOdvName state="identified" method="auto">
+        <odvNameElem x="8477303" y="49486561" mapName="WGS84" value="8477303:49486561:WGS84:Dest" matchQuality="0">Dest</odvNameElem>
+        <odvNameInput>8.477297:49.486561:WGS84:Dest</odvNameInput>
+      </itdOdvName>
+      <itdOdvAssignedStops select="0">
+        <itdOdvAssignedStop stopID="6002444" x="8477872" y="49487598" mapName="WGS84" value="6002444:Nationaltheater" place="Mannheim"
+          nameWithPlace="Mannheim, Nationaltheater" distance="216" distanceTime="3" isTransferStop="0"
+        >Nationaltheater</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6002831" x="8475698" y="49485655" mapName="WGS84" value="6002831:Dorint Hotel" place="Mannheim"
+          nameWithPlace="Mannheim, Dorint Hotel" distance="235" distanceTime="3" isTransferStop="0"
+        >Dorint Hotel</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6002459" x="8475410" y="49485492" mapName="WGS84" value="6002459:Rosengarten" place="Mannheim"
+          nameWithPlace="Mannheim, Rosengarten" distance="271" distanceTime="4" isTransferStop="0"
+        >Rosengarten</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6002475" x="8474780" y="49485049" mapName="WGS84" value="6002475:Wasserturm" place="Mannheim"
+          nameWithPlace="Mannheim, Wasserturm" distance="348" distanceTime="5" isTransferStop="0"
+        >Wasserturm</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6002412" x="8475558" y="49489728" mapName="WGS84" value="6002412:Gewerkschaftshaus" place="Mannheim"
+          nameWithPlace="Mannheim, Gewerkschaftshaus" distance="423" distanceTime="6" isTransferStop="0"
+        >Gewerkschaftshaus</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6007303" x="8482989" y="49486578" mapName="WGS84" value="6007303:Kolpingstraße" place="Mannheim"
+          nameWithPlace="Mannheim, Kolpingstraße" distance="442" distanceTime="6" isTransferStop="0"
+        >Kolpingstraße</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6005543" x="8480787" y="49489895" mapName="WGS84" value="6005543:Theresienkrankenhaus" place="Mannheim"
+          nameWithPlace="Mannheim, Theresienkrankenhaus" distance="469" distanceTime="6" isTransferStop="1"
+        >Theresienkrankenhaus</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6005542" x="8473378" y="49483217" mapName="WGS84" value="6005542:Kunsthalle" place="Mannheim"
+          nameWithPlace="Mannheim, Kunsthalle" distance="563" distanceTime="8" isTransferStop="0"
+        >Kunsthalle</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6002395" x="8479441" y="49482732" mapName="WGS84" value="6002395:Am Friedrichsplatz" place="Mannheim"
+          nameWithPlace="Mannheim, Am Friedrichsplatz" distance="674" distanceTime="10" isTransferStop="0"
+        >Am Friedrichsplatz</itdOdvAssignedStop>
+        <itdOdvAssignedStop stopID="6002569" x="8476932" y="49491577" mapName="WGS84" value="6002569:Collini-Center" place="Mannheim"
+          nameWithPlace="Mannheim, Collini-Center" distance="716" distanceTime="10" isTransferStop="0"
+        >Collini-Center</itdOdvAssignedStop>
+      </itdOdvAssignedStops>
+    </itdOdv>
+    <itdOdv type="unknown" usage="via">
+      <itdOdvPlace state="empty">
+        <odvPlaceElem></odvPlaceElem>
+      </itdOdvPlace>
+      <itdOdvName state="empty">
+        <odvNameElem></odvNameElem>
+      </itdOdvName>
+    </itdOdv>
+    <itdTripDateTime deparr="dep" ttpFrom="20110601" ttpTo="20111210">
+      <itdDateTime ttpFrom="20110601" ttpTo="20111210">
+        <itdDate weekday="1" year="2011" month="6" day="5" />
+        <itdTime hour="17" minute="47" />
+      </itdDateTime>
+      <itdDateRange>
+        <itdDate day="14" month="06" year="2011" weekday="3" />
+        <itdDate day="15" month="06" year="2011" weekday="4" />
+        <itdDate day="16" month="06" year="2011" weekday="5" />
+        <itdDate day="17" month="06" year="2011" weekday="6" />
+        <itdDate day="18" month="06" year="2011" weekday="7" />
+        <itdDate day="19" month="06" year="2011" weekday="1" />
+        <itdDate day="20" month="06" year="2011" weekday="2" />
+        <itdDate day="21" month="06" year="2011" weekday="3" />
+        <itdDate day="22" month="06" year="2011" weekday="4" />
+        <itdDate day="23" month="06" year="2011" weekday="5" />
+        <itdDate day="24" month="06" year="2011" weekday="6" />
+        <itdDate day="25" month="06" year="2011" weekday="7" />
+        <itdDate day="26" month="06" year="2011" weekday="1" />
+        <itdDate day="27" month="06" year="2011" weekday="2" />
+        <itdDate day="28" month="06" year="2011" weekday="3" />
+      </itdDateRange>
+    </itdTripDateTime>
+    <itdTripOptions userDefined="0">
+      <itdPtOptions active="1" maxChanges="9" maxTime="360" maxWait="120" routeType="LEASTTIME" changeSpeed="fast" lineRestriction="400"
+        useProxFootSearch="1" useProxFootSearchOrigin="1" useProxFootSearchDestination="1" bike="0" plane="0" noCrowded="0" noSolidStairs="0" noEscalators="0"
+        noElevators="0" lowPlatformVhcl="0" wheelchair="0" SOSAvail="0" noLonelyTransfer="0" illumTransfer="0" overgroundTransfer="0" noInsecurePlaces="0"
+        privateTransport="0"
+      >
+        <excludedMeans>
+          <meansElem value="0" selected="0">Zug</meansElem>
+          <meansElem value="1" selected="0">S-Bahn</meansElem>
+          <meansElem value="2" selected="0">U-Bahn</meansElem>
+          <meansElem value="3" selected="0">Stadtbahn</meansElem>
+          <meansElem value="4" selected="0">Straßen-/Trambahn</meansElem>
+          <meansElem value="5" selected="0">Stadtbus</meansElem>
+          <meansElem value="6" selected="0">Regionalbus</meansElem>
+          <meansElem value="7" selected="0">Schnellbus</meansElem>
+          <meansElem value="8" selected="0">Seil-/Zahnradbahn</meansElem>
+          <meansElem value="9" selected="0">Schiff</meansElem>
+          <meansElem value="10" selected="1">AST/Rufbus</meansElem>
+          <meansElem value="11" selected="0">Sonstige</meansElem>
+        </excludedMeans>
+        <specialTickets />
+        <tariffZones>
+          <itdTariffzones net="" toPR="-1" fromPR="-1" neutralZone="">
+            <itdZones value="0" selected="1">
+              <zoneElem>2</zoneElem>
+            </itdZones>
+            <itdZones value="1" selected="1">
+              <zoneElem>11</zoneElem>
+            </itdZones>
+            <itdZones value="2" selected="1">
+              <zoneElem>4</zoneElem>
+            </itdZones>
+            <itdZones value="3" selected="1">
+              <zoneElem>14</zoneElem>
+            </itdZones>
+            <itdZones value="4" selected="1">
+              <zoneElem>13</zoneElem>
+            </itdZones>
+            <itdZones value="5" selected="1">
+              <zoneElem>12</zoneElem>
+            </itdZones>
+            <itdZones value="6" selected="1">
+              <zoneElem>3</zoneElem>
+            </itdZones>
+            <itdZones value="7" selected="1">
+              <zoneElem>31</zoneElem>
+            </itdZones>
+            <itdZones value="8" selected="1">
+              <zoneElem>21</zoneElem>
+            </itdZones>
+            <itdZones value="9" selected="1">
+              <zoneElem>23</zoneElem>
+            </itdZones>
+            <itdZones value="10" selected="1">
+              <zoneElem>25</zoneElem>
+            </itdZones>
+            <itdZones value="11" selected="1">
+              <zoneElem>16</zoneElem>
+            </itdZones>
+            <itdZones value="12" selected="1">
+              <zoneElem>22</zoneElem>
+            </itdZones>
+            <itdZones value="13" selected="1">
+              <zoneElem>41</zoneElem>
+            </itdZones>
+            <itdZones value="14" selected="1">
+              <zoneElem>32</zoneElem>
+            </itdZones>
+            <itdZones value="15" selected="1">
+              <zoneElem>45</zoneElem>
+            </itdZones>
+            <itdZones value="16" selected="1">
+              <zoneElem>33</zoneElem>
+            </itdZones>
+            <itdZones value="17" selected="1">
+              <zoneElem>46</zoneElem>
+            </itdZones>
+            <itdZones value="18" selected="1">
+              <zoneElem>36</zoneElem>
+            </itdZones>
+            <itdZones value="19" selected="1">
+              <zoneElem>42</zoneElem>
+            </itdZones>
+            <itdZones value="20" selected="1">
+              <zoneElem>44</zoneElem>
+            </itdZones>
+            <itdZones value="21" selected="1">
+              <zoneElem>43</zoneElem>
+            </itdZones>
+            <itdZones value="22" selected="1">
+              <zoneElem>34</zoneElem>
+            </itdZones>
+            <itdZones value="23" selected="1">
+              <zoneElem>35</zoneElem>
+            </itdZones>
+            <itdZones value="24" selected="1">
+              <zoneElem>60</zoneElem>
+            </itdZones>
+            <itdZones value="25" selected="1">
+              <zoneElem>54</zoneElem>
+            </itdZones>
+            <itdZones value="26" selected="1">
+              <zoneElem>53</zoneElem>
+            </itdZones>
+            <itdZones value="27" selected="1">
+              <zoneElem>55</zoneElem>
+            </itdZones>
+            <itdZones value="28" selected="1">
+              <zoneElem>61</zoneElem>
+            </itdZones>
+            <itdZones value="29" selected="1">
+              <zoneElem>52</zoneElem>
+            </itdZones>
+            <itdZones value="30" selected="1">
+              <zoneElem>62</zoneElem>
+            </itdZones>
+            <itdZones value="31" selected="1">
+              <zoneElem>56</zoneElem>
+            </itdZones>
+            <itdZones value="32" selected="1">
+              <zoneElem>63</zoneElem>
+            </itdZones>
+            <itdZones value="33" selected="1">
+              <zoneElem>48</zoneElem>
+            </itdZones>
+            <itdZones value="34" selected="1">
+              <zoneElem>58</zoneElem>
+            </itdZones>
+            <itdZones value="35" selected="1">
+              <zoneElem>71</zoneElem>
+            </itdZones>
+            <itdZones value="36" selected="1">
+              <zoneElem>75</zoneElem>
+            </itdZones>
+            <itdZones value="37" selected="1">
+              <zoneElem>74</zoneElem>
+            </itdZones>
+            <itdZones value="38" selected="1">
+              <zoneElem>64</zoneElem>
+            </itdZones>
+            <itdZones value="39" selected="1">
+              <zoneElem>73</zoneElem>
+            </itdZones>
+            <itdZones value="40" selected="1">
+              <zoneElem>65</zoneElem>
+            </itdZones>
+            <itdZones value="41" selected="1">
+              <zoneElem>72</zoneElem>
+            </itdZones>
+            <itdZones value="42" selected="1">
+              <zoneElem>76</zoneElem>
+            </itdZones>
+            <itdZones value="43" selected="1">
+              <zoneElem>66</zoneElem>
+            </itdZones>
+            <itdZones value="44" selected="1">
+              <zoneElem>86</zoneElem>
+            </itdZones>
+            <itdZones value="45" selected="1">
+              <zoneElem>84</zoneElem>
+            </itdZones>
+            <itdZones value="46" selected="1">
+              <zoneElem>83</zoneElem>
+            </itdZones>
+            <itdZones value="47" selected="1">
+              <zoneElem>95</zoneElem>
+            </itdZones>
+            <itdZones value="48" selected="1">
+              <zoneElem>85</zoneElem>
+            </itdZones>
+            <itdZones value="49" selected="1">
+              <zoneElem>94</zoneElem>
+            </itdZones>
+            <itdZones value="50" selected="1">
+              <zoneElem>82</zoneElem>
+            </itdZones>
+            <itdZones value="51" selected="1">
+              <zoneElem>91</zoneElem>
+            </itdZones>
+            <itdZones value="52" selected="1">
+              <zoneElem>93</zoneElem>
+            </itdZones>
+            <itdZones value="53" selected="1">
+              <zoneElem>92</zoneElem>
+            </itdZones>
+            <itdZones value="54" selected="1">
+              <zoneElem>81</zoneElem>
+            </itdZones>
+            <itdZones value="55" selected="1">
+              <zoneElem>100</zoneElem>
+            </itdZones>
+            <itdZones value="56" selected="1">
+              <zoneElem>111</zoneElem>
+            </itdZones>
+            <itdZones value="57" selected="1">
+              <zoneElem>103</zoneElem>
+            </itdZones>
+            <itdZones value="58" selected="1">
+              <zoneElem>96</zoneElem>
+            </itdZones>
+            <itdZones value="59" selected="1">
+              <zoneElem>106</zoneElem>
+            </itdZones>
+            <itdZones value="60" selected="1">
+              <zoneElem>107</zoneElem>
+            </itdZones>
+            <itdZones value="61" selected="1">
+              <zoneElem>105</zoneElem>
+            </itdZones>
+            <itdZones value="62" selected="1">
+              <zoneElem>101</zoneElem>
+            </itdZones>
+            <itdZones value="63" selected="1">
+              <zoneElem>104</zoneElem>
+            </itdZones>
+            <itdZones value="64" selected="1">
+              <zoneElem>127</zoneElem>
+            </itdZones>
+            <itdZones value="65" selected="1">
+              <zoneElem>126</zoneElem>
+            </itdZones>
+            <itdZones value="66" selected="1">
+              <zoneElem>123</zoneElem>
+            </itdZones>
+            <itdZones value="67" selected="1">
+              <zoneElem>116</zoneElem>
+            </itdZones>
+            <itdZones value="68" selected="1">
+              <zoneElem>122</zoneElem>
+            </itdZones>
+            <itdZones value="69" selected="1">
+              <zoneElem>125</zoneElem>
+            </itdZones>
+            <itdZones value="70" selected="1">
+              <zoneElem>121</zoneElem>
+            </itdZones>
+            <itdZones value="71" selected="1">
+              <zoneElem>115</zoneElem>
+            </itdZones>
+            <itdZones value="72" selected="1">
+              <zoneElem>117</zoneElem>
+            </itdZones>
+            <itdZones value="73" selected="1">
+              <zoneElem>112</zoneElem>
+            </itdZones>
+            <itdZones value="74" selected="1">
+              <zoneElem>113</zoneElem>
+            </itdZones>
+            <itdZones value="75" selected="1">
+              <zoneElem>124</zoneElem>
+            </itdZones>
+            <itdZones value="76" selected="1">
+              <zoneElem>114</zoneElem>
+            </itdZones>
+            <itdZones value="77" selected="1">
+              <zoneElem>137</zoneElem>
+            </itdZones>
+            <itdZones value="78" selected="1">
+              <zoneElem>134</zoneElem>
+            </itdZones>
+            <itdZones value="79" selected="1">
+              <zoneElem>142</zoneElem>
+            </itdZones>
+            <itdZones value="80" selected="1">
+              <zoneElem>135</zoneElem>
+            </itdZones>
+            <itdZones value="81" selected="1">
+              <zoneElem>130</zoneElem>
+            </itdZones>
+            <itdZones value="82" selected="1">
+              <zoneElem>131</zoneElem>
+            </itdZones>
+            <itdZones value="83" selected="1">
+              <zoneElem>140</zoneElem>
+            </itdZones>
+            <itdZones value="84" selected="1">
+              <zoneElem>143</zoneElem>
+            </itdZones>
+            <itdZones value="85" selected="1">
+              <zoneElem>133</zoneElem>
+            </itdZones>
+            <itdZones value="86" selected="1">
+              <zoneElem>136</zoneElem>
+            </itdZones>
+            <itdZones value="87" selected="1">
+              <zoneElem>132</zoneElem>
+            </itdZones>
+            <itdZones value="88" selected="1">
+              <zoneElem>155</zoneElem>
+            </itdZones>
+            <itdZones value="89" selected="1">
+              <zoneElem>144</zoneElem>
+            </itdZones>
+            <itdZones value="90" selected="1">
+              <zoneElem>145</zoneElem>
+            </itdZones>
+            <itdZones value="91" selected="1">
+              <zoneElem>153</zoneElem>
+            </itdZones>
+            <itdZones value="92" selected="1">
+              <zoneElem>156</zoneElem>
+            </itdZones>
+            <itdZones value="93" selected="1">
+              <zoneElem>146</zoneElem>
+            </itdZones>
+            <itdZones value="94" selected="1">
+              <zoneElem>157</zoneElem>
+            </itdZones>
+            <itdZones value="95" selected="1">
+              <zoneElem>152</zoneElem>
+            </itdZones>
+            <itdZones value="96" selected="1">
+              <zoneElem>154</zoneElem>
+            </itdZones>
+            <itdZones value="97" selected="1">
+              <zoneElem>158</zoneElem>
+            </itdZones>
+            <itdZones value="98" selected="1">
+              <zoneElem>173</zoneElem>
+            </itdZones>
+            <itdZones value="99" selected="1">
+              <zoneElem>162</zoneElem>
+            </itdZones>
+            <itdZones value="100" selected="1">
+              <zoneElem>174</zoneElem>
+            </itdZones>
+            <itdZones value="101" selected="1">
+              <zoneElem>175</zoneElem>
+            </itdZones>
+            <itdZones value="102" selected="1">
+              <zoneElem>160</zoneElem>
+            </itdZones>
+            <itdZones value="103" selected="1">
+              <zoneElem>166</zoneElem>
+            </itdZones>
+            <itdZones value="104" selected="1">
+              <zoneElem>163</zoneElem>
+            </itdZones>
+            <itdZones value="105" selected="1">
+              <zoneElem>164</zoneElem>
+            </itdZones>
+            <itdZones value="106" selected="1">
+              <zoneElem>171</zoneElem>
+            </itdZones>
+            <itdZones value="107" selected="1">
+              <zoneElem>172</zoneElem>
+            </itdZones>
+            <itdZones value="108" selected="1">
+              <zoneElem>165</zoneElem>
+            </itdZones>
+            <itdZones value="109" selected="1">
+              <zoneElem>167</zoneElem>
+            </itdZones>
+            <itdZones value="110" selected="1">
+              <zoneElem>183</zoneElem>
+            </itdZones>
+            <itdZones value="111" selected="1">
+              <zoneElem>190</zoneElem>
+            </itdZones>
+            <itdZones value="112" selected="1">
+              <zoneElem>180</zoneElem>
+            </itdZones>
+            <itdZones value="113" selected="1">
+              <zoneElem>191</zoneElem>
+            </itdZones>
+            <itdZones value="114" selected="1">
+              <zoneElem>181</zoneElem>
+            </itdZones>
+            <itdZones value="115" selected="1">
+              <zoneElem>185</zoneElem>
+            </itdZones>
+            <itdZones value="116" selected="1">
+              <zoneElem>177</zoneElem>
+            </itdZones>
+            <itdZones value="117" selected="1">
+              <zoneElem>186</zoneElem>
+            </itdZones>
+            <itdZones value="118" selected="1">
+              <zoneElem>176</zoneElem>
+            </itdZones>
+            <itdZones value="119" selected="1">
+              <zoneElem>187</zoneElem>
+            </itdZones>
+            <itdZones value="120" selected="1">
+              <zoneElem>195</zoneElem>
+            </itdZones>
+            <itdZones value="121" selected="1">
+              <zoneElem>193</zoneElem>
+            </itdZones>
+            <itdZones value="122" selected="1">
+              <zoneElem>200</zoneElem>
+            </itdZones>
+            <itdZones value="123" selected="1">
+              <zoneElem>197</zoneElem>
+            </itdZones>
+            <itdZones value="124" selected="1">
+              <zoneElem>201</zoneElem>
+            </itdZones>
+            <itdZones value="125" selected="1">
+              <zoneElem>192</zoneElem>
+            </itdZones>
+            <itdZones value="126" selected="1">
+              <zoneElem>202</zoneElem>
+            </itdZones>
+            <itdZones value="127" selected="1">
+              <zoneElem>196</zoneElem>
+            </itdZones>
+            <itdZones value="128" selected="1">
+              <zoneElem>213</zoneElem>
+            </itdZones>
+            <itdZones value="129" selected="1">
+              <zoneElem>222</zoneElem>
+            </itdZones>
+            <itdZones value="130" selected="1">
+              <zoneElem>216</zoneElem>
+            </itdZones>
+            <itdZones value="131" selected="1">
+              <zoneElem>211</zoneElem>
+            </itdZones>
+            <itdZones value="132" selected="1">
+              <zoneElem>221</zoneElem>
+            </itdZones>
+            <itdZones value="133" selected="1">
+              <zoneElem>220</zoneElem>
+            </itdZones>
+            <itdZones value="134" selected="1">
+              <zoneElem>212</zoneElem>
+            </itdZones>
+            <itdZones value="135" selected="1">
+              <zoneElem>218</zoneElem>
+            </itdZones>
+            <itdZones value="136" selected="1">
+              <zoneElem>217</zoneElem>
+            </itdZones>
+            <itdZones value="137" selected="1">
+              <zoneElem>233</zoneElem>
+            </itdZones>
+            <itdZones value="138" selected="1">
+              <zoneElem>230</zoneElem>
+            </itdZones>
+            <itdZones value="139" selected="1">
+              <zoneElem>231</zoneElem>
+            </itdZones>
+            <itdZones value="140" selected="1">
+              <zoneElem>232</zoneElem>
+            </itdZones>
+            <itdZones value="141" selected="1">
+              <zoneElem>240</zoneElem>
+            </itdZones>
+            <itdZones value="142" selected="1">
+              <zoneElem>241</zoneElem>
+            </itdZones>
+            <itdZones value="143" selected="1">
+              <zoneElem>253</zoneElem>
+            </itdZones>
+            <itdZones value="144" selected="1">
+              <zoneElem>255</zoneElem>
+            </itdZones>
+            <itdZones value="145" selected="1">
+              <zoneElem>252</zoneElem>
+            </itdZones>
+            <itdZones value="146" selected="1">
+              <zoneElem>254</zoneElem>
+            </itdZones>
+            <itdZones value="147" selected="1">
+              <zoneElem>251</zoneElem>
+            </itdZones>
+            <itdZones value="148" selected="1">
+              <zoneElem>261</zoneElem>
+            </itdZones>
+            <itdZones value="149" selected="1">
+              <zoneElem>265</zoneElem>
+            </itdZones>
+            <itdZones value="150" selected="1">
+              <zoneElem>262</zoneElem>
+            </itdZones>
+            <itdZones value="151" selected="1">
+              <zoneElem>266</zoneElem>
+            </itdZones>
+            <itdZones value="152" selected="1">
+              <zoneElem>264</zoneElem>
+            </itdZones>
+            <itdZones value="153" selected="1">
+              <zoneElem>263</zoneElem>
+            </itdZones>
+            <itdZones value="154" selected="1">
+              <zoneElem>260</zoneElem>
+            </itdZones>
+            <itdZones value="155" selected="1">
+              <zoneElem>259</zoneElem>
+            </itdZones>
+            <itdZones value="156" selected="1">
+              <zoneElem>256</zoneElem>
+            </itdZones>
+            <itdZones value="157" selected="1">
+              <zoneElem>270</zoneElem>
+            </itdZones>
+            <itdZones value="158" selected="1">
+              <zoneElem>269</zoneElem>
+            </itdZones>
+            <itdZones value="159" selected="1">
+              <zoneElem>268</zoneElem>
+            </itdZones>
+            <itdZones value="160" selected="1">
+              <zoneElem>267</zoneElem>
+            </itdZones>
+            <itdZones value="161" selected="1">
+              <zoneElem>258</zoneElem>
+            </itdZones>
+            <itdZones value="162" selected="1">
+              <zoneElem>271</zoneElem>
+            </itdZones>
+            <itdZones value="163" selected="1">
+              <zoneElem>273</zoneElem>
+            </itdZones>
+            <itdZones value="164" selected="1">
+              <zoneElem>300</zoneElem>
+            </itdZones>
+            <itdZones value="165" selected="1">
+              <zoneElem>317</zoneElem>
+            </itdZones>
+            <itdZones value="166" selected="1">
+              <zoneElem>310</zoneElem>
+            </itdZones>
+            <itdZones value="167" selected="1">
+              <zoneElem>314</zoneElem>
+            </itdZones>
+            <itdZones value="168" selected="1">
+              <zoneElem>312</zoneElem>
+            </itdZones>
+            <itdZones value="169" selected="1">
+              <zoneElem>318</zoneElem>
+            </itdZones>
+            <itdZones value="170" selected="1">
+              <zoneElem>313</zoneElem>
+            </itdZones>
+            <itdZones value="171" selected="1">
+              <zoneElem>316</zoneElem>
+            </itdZones>
+            <itdZones value="172" selected="1">
+              <zoneElem>321</zoneElem>
+            </itdZones>
+            <itdZones value="173" selected="1">
+              <zoneElem>333</zoneElem>
+            </itdZones>
+            <itdZones value="174" selected="1">
+              <zoneElem>332</zoneElem>
+            </itdZones>
+            <itdZones value="175" selected="1">
+              <zoneElem>320</zoneElem>
+            </itdZones>
+            <itdZones value="176" selected="1">
+              <zoneElem>331</zoneElem>
+            </itdZones>
+            <itdZones value="177" selected="1">
+              <zoneElem>327</zoneElem>
+            </itdZones>
+            <itdZones value="178" selected="1">
+              <zoneElem>322</zoneElem>
+            </itdZones>
+            <itdZones value="179" selected="1">
+              <zoneElem>323</zoneElem>
+            </itdZones>
+            <itdZones value="180" selected="1">
+              <zoneElem>325</zoneElem>
+            </itdZones>
+            <itdZones value="181" selected="1">
+              <zoneElem>330</zoneElem>
+            </itdZones>
+            <itdZones value="182" selected="1">
+              <zoneElem>349</zoneElem>
+            </itdZones>
+            <itdZones value="183" selected="1">
+              <zoneElem>342</zoneElem>
+            </itdZones>
+            <itdZones value="184" selected="1">
+              <zoneElem>343</zoneElem>
+            </itdZones>
+            <itdZones value="185" selected="1">
+              <zoneElem>351</zoneElem>
+            </itdZones>
+            <itdZones value="186" selected="1">
+              <zoneElem>340</zoneElem>
+            </itdZones>
+            <itdZones value="187" selected="1">
+              <zoneElem>348</zoneElem>
+            </itdZones>
+            <itdZones value="188" selected="1">
+              <zoneElem>346</zoneElem>
+            </itdZones>
+            <itdZones value="189" selected="1">
+              <zoneElem>345</zoneElem>
+            </itdZones>
+            <itdZones value="190" selected="1">
+              <zoneElem>341</zoneElem>
+            </itdZones>
+            <itdZones value="191" selected="1">
+              <zoneElem>350</zoneElem>
+            </itdZones>
+            <itdZones value="192" selected="1">
+              <zoneElem>362</zoneElem>
+            </itdZones>
+            <itdZones value="193" selected="1">
+              <zoneElem>360</zoneElem>
+            </itdZones>
+            <itdZones value="194" selected="1">
+              <zoneElem>352</zoneElem>
+            </itdZones>
+            <itdZones value="195" selected="1">
+              <zoneElem>361</zoneElem>
+            </itdZones>
+            <itdZones value="196" selected="1">
+              <zoneElem>364</zoneElem>
+            </itdZones>
+            <itdZones value="197" selected="1">
+              <zoneElem>383</zoneElem>
+            </itdZones>
+            <itdZones value="198" selected="1">
+              <zoneElem>381</zoneElem>
+            </itdZones>
+            <itdZones value="199" selected="1">
+              <zoneElem>377</zoneElem>
+            </itdZones>
+            <itdZones value="200" selected="1">
+              <zoneElem>372</zoneElem>
+            </itdZones>
+            <itdZones value="201" selected="1">
+              <zoneElem>380</zoneElem>
+            </itdZones>
+            <itdZones value="202" selected="1">
+              <zoneElem>375</zoneElem>
+            </itdZones>
+            <itdZones value="203" selected="1">
+              <zoneElem>374</zoneElem>
+            </itdZones>
+            <itdZones value="204" selected="1">
+              <zoneElem>370</zoneElem>
+            </itdZones>
+            <itdZones value="205" selected="1">
+              <zoneElem>403</zoneElem>
+            </itdZones>
+            <itdZones value="206" selected="1">
+              <zoneElem>413</zoneElem>
+            </itdZones>
+            <itdZones value="207" selected="1">
+              <zoneElem>412</zoneElem>
+            </itdZones>
+            <itdZones value="208" selected="1">
+              <zoneElem>414</zoneElem>
+            </itdZones>
+            <itdZones value="209" selected="1">
+              <zoneElem>409</zoneElem>
+            </itdZones>
+            <itdZones value="210" selected="1">
+              <zoneElem>410</zoneElem>
+            </itdZones>
+            <itdZones value="211" selected="1">
+              <zoneElem>408</zoneElem>
+            </itdZones>
+            <itdZones value="212" selected="1">
+              <zoneElem>407</zoneElem>
+            </itdZones>
+            <itdZones value="213" selected="1">
+              <zoneElem>406</zoneElem>
+            </itdZones>
+            <itdZones value="214" selected="1">
+              <zoneElem>404</zoneElem>
+            </itdZones>
+            <itdZones value="215" selected="1">
+              <zoneElem>400</zoneElem>
+            </itdZones>
+            <itdZones value="216" selected="1">
+              <zoneElem>401</zoneElem>
+            </itdZones>
+            <itdZones value="217" selected="1">
+              <zoneElem>402</zoneElem>
+            </itdZones>
+            <itdZones value="218" selected="1">
+              <zoneElem>428</zoneElem>
+            </itdZones>
+            <itdZones value="219" selected="1">
+              <zoneElem>426</zoneElem>
+            </itdZones>
+            <itdZones value="220" selected="1">
+              <zoneElem>425</zoneElem>
+            </itdZones>
+            <itdZones value="221" selected="1">
+              <zoneElem>423</zoneElem>
+            </itdZones>
+            <itdZones value="222" selected="1">
+              <zoneElem>418</zoneElem>
+            </itdZones>
+            <itdZones value="223" selected="1">
+              <zoneElem>430</zoneElem>
+            </itdZones>
+            <itdZones value="224" selected="1">
+              <zoneElem>429</zoneElem>
+            </itdZones>
+            <itdZones value="225" selected="1">
+              <zoneElem>424</zoneElem>
+            </itdZones>
+            <itdZones value="226" selected="1">
+              <zoneElem>427</zoneElem>
+            </itdZones>
+            <itdZones value="227" selected="1">
+              <zoneElem>416</zoneElem>
+            </itdZones>
+            <itdZones value="228" selected="1">
+              <zoneElem>422</zoneElem>
+            </itdZones>
+            <itdZones value="229" selected="1">
+              <zoneElem>420</zoneElem>
+            </itdZones>
+            <itdZones value="230" selected="1">
+              <zoneElem>435</zoneElem>
+            </itdZones>
+            <itdZones value="231" selected="1">
+              <zoneElem>454</zoneElem>
+            </itdZones>
+            <itdZones value="232" selected="1">
+              <zoneElem>457</zoneElem>
+            </itdZones>
+            <itdZones value="233" selected="1">
+              <zoneElem>463</zoneElem>
+            </itdZones>
+            <itdZones value="234" selected="1">
+              <zoneElem>461</zoneElem>
+            </itdZones>
+            <itdZones value="235" selected="1">
+              <zoneElem>462</zoneElem>
+            </itdZones>
+            <itdZones value="236" selected="1">
+              <zoneElem>451</zoneElem>
+            </itdZones>
+            <itdZones value="237" selected="1">
+              <zoneElem>459</zoneElem>
+            </itdZones>
+            <itdZones value="238" selected="1">
+              <zoneElem>452</zoneElem>
+            </itdZones>
+            <itdZones value="239" selected="1">
+              <zoneElem>453</zoneElem>
+            </itdZones>
+            <itdZones value="240" selected="1">
+              <zoneElem>450</zoneElem>
+            </itdZones>
+            <itdZones value="241" selected="1">
+              <zoneElem>458</zoneElem>
+            </itdZones>
+            <itdZones value="242" selected="1">
+              <zoneElem>455</zoneElem>
+            </itdZones>
+            <itdZones value="243" selected="1">
+              <zoneElem>456</zoneElem>
+            </itdZones>
+            <itdZones value="244" selected="1">
+              <zoneElem>464</zoneElem>
+            </itdZones>
+            <itdZones value="245" selected="1">
+              <zoneElem>472</zoneElem>
+            </itdZones>
+            <itdZones value="246" selected="1">
+              <zoneElem>476</zoneElem>
+            </itdZones>
+            <itdZones value="247" selected="1">
+              <zoneElem>467</zoneElem>
+            </itdZones>
+            <itdZones value="248" selected="1">
+              <zoneElem>466</zoneElem>
+            </itdZones>
+            <itdZones value="249" selected="1">
+              <zoneElem>465</zoneElem>
+            </itdZones>
+            <itdZones value="250" selected="1">
+              <zoneElem>471</zoneElem>
+            </itdZones>
+            <itdZones value="251" selected="1">
+              <zoneElem>473</zoneElem>
+            </itdZones>
+            <itdZones value="252" selected="1">
+              <zoneElem>477</zoneElem>
+            </itdZones>
+            <itdZones value="253" selected="1">
+              <zoneElem>470</zoneElem>
+            </itdZones>
+            <itdZones value="254" selected="1">
+              <zoneElem>474</zoneElem>
+            </itdZones>
+            <itdZones value="255" selected="1">
+              <zoneElem>475</zoneElem>
+            </itdZones>
+            <itdZones value="256" selected="1">
+              <zoneElem>468</zoneElem>
+            </itdZones>
+            <itdZones value="257" selected="1">
+              <zoneElem>480</zoneElem>
+            </itdZones>
+            <itdZones value="258" selected="1">
+              <zoneElem>511</zoneElem>
+            </itdZones>
+            <itdZones value="259" selected="1">
+              <zoneElem>523</zoneElem>
+            </itdZones>
+            <itdZones value="260" selected="1">
+              <zoneElem>522</zoneElem>
+            </itdZones>
+            <itdZones value="261" selected="1">
+              <zoneElem>524</zoneElem>
+            </itdZones>
+            <itdZones value="262" selected="1">
+              <zoneElem>521</zoneElem>
+            </itdZones>
+            <itdZones value="263" selected="1">
+              <zoneElem>512</zoneElem>
+            </itdZones>
+            <itdZones value="264" selected="1">
+              <zoneElem>527</zoneElem>
+            </itdZones>
+            <itdZones value="265" selected="1">
+              <zoneElem>534</zoneElem>
+            </itdZones>
+            <itdZones value="266" selected="1">
+              <zoneElem>532</zoneElem>
+            </itdZones>
+            <itdZones value="267" selected="1">
+              <zoneElem>529</zoneElem>
+            </itdZones>
+            <itdZones value="268" selected="1">
+              <zoneElem>533</zoneElem>
+            </itdZones>
+            <itdZones value="269" selected="1">
+              <zoneElem>528</zoneElem>
+            </itdZones>
+            <itdZones value="270" selected="1">
+              <zoneElem>542</zoneElem>
+            </itdZones>
+            <itdZones value="271" selected="1">
+              <zoneElem>531</zoneElem>
+            </itdZones>
+            <itdZones value="272" selected="1">
+              <zoneElem>541</zoneElem>
+            </itdZones>
+            <itdZones value="273" selected="1">
+              <zoneElem>551</zoneElem>
+            </itdZones>
+            <itdZones value="274" selected="1">
+              <zoneElem>552</zoneElem>
+            </itdZones>
+            <itdZones value="275" selected="1">
+              <zoneElem>563</zoneElem>
+            </itdZones>
+            <itdZones value="276" selected="1">
+              <zoneElem>562</zoneElem>
+            </itdZones>
+            <itdZones value="277" selected="1">
+              <zoneElem>561</zoneElem>
+            </itdZones>
+            <itdZones value="278" selected="1">
+              <zoneElem>574</zoneElem>
+            </itdZones>
+            <itdZones value="279" selected="1">
+              <zoneElem>570</zoneElem>
+            </itdZones>
+            <itdZones value="280" selected="1">
+              <zoneElem>623</zoneElem>
+            </itdZones>
+            <itdZones value="281" selected="1">
+              <zoneElem>614</zoneElem>
+            </itdZones>
+            <itdZones value="282" selected="1">
+              <zoneElem>613</zoneElem>
+            </itdZones>
+            <itdZones value="283" selected="1">
+              <zoneElem>612</zoneElem>
+            </itdZones>
+            <itdZones value="284" selected="1">
+              <zoneElem>615</zoneElem>
+            </itdZones>
+            <itdZones value="285" selected="1">
+              <zoneElem>616</zoneElem>
+            </itdZones>
+            <itdZones value="286" selected="1">
+              <zoneElem>618</zoneElem>
+            </itdZones>
+            <itdZones value="287" selected="1">
+              <zoneElem>619</zoneElem>
+            </itdZones>
+            <itdZones value="288" selected="1">
+              <zoneElem>621</zoneElem>
+            </itdZones>
+            <itdZones value="289" selected="1">
+              <zoneElem>620</zoneElem>
+            </itdZones>
+            <itdZones value="290" selected="1">
+              <zoneElem>622</zoneElem>
+            </itdZones>
+            <itdZones value="291" selected="1">
+              <zoneElem>611</zoneElem>
+            </itdZones>
+            <itdZones value="292" selected="1">
+              <zoneElem>617</zoneElem>
+            </itdZones>
+            <itdZones value="293" selected="1">
+              <zoneElem>632</zoneElem>
+            </itdZones>
+            <itdZones value="294" selected="1">
+              <zoneElem>636</zoneElem>
+            </itdZones>
+            <itdZones value="295" selected="1">
+              <zoneElem>634</zoneElem>
+            </itdZones>
+            <itdZones value="296" selected="1">
+              <zoneElem>639</zoneElem>
+            </itdZones>
+            <itdZones value="297" selected="1">
+              <zoneElem>638</zoneElem>
+            </itdZones>
+            <itdZones value="298" selected="1">
+              <zoneElem>637</zoneElem>
+            </itdZones>
+            <itdZones value="299" selected="1">
+              <zoneElem>626</zoneElem>
+            </itdZones>
+            <itdZones value="300" selected="1">
+              <zoneElem>624</zoneElem>
+            </itdZones>
+            <itdZones value="301" selected="1">
+              <zoneElem>625</zoneElem>
+            </itdZones>
+            <itdZones value="302" selected="1">
+              <zoneElem>628</zoneElem>
+            </itdZones>
+            <itdZones value="303" selected="1">
+              <zoneElem>631</zoneElem>
+            </itdZones>
+            <itdZones value="304" selected="1">
+              <zoneElem>630</zoneElem>
+            </itdZones>
+            <itdZones value="305" selected="1">
+              <zoneElem>629</zoneElem>
+            </itdZones>
+            <itdZones value="306" selected="1">
+              <zoneElem>627</zoneElem>
+            </itdZones>
+            <itdZones value="307" selected="1">
+              <zoneElem>633</zoneElem>
+            </itdZones>
+            <itdZones value="308" selected="1">
+              <zoneElem>635</zoneElem>
+            </itdZones>
+            <itdZones value="309" selected="1">
+              <zoneElem>646</zoneElem>
+            </itdZones>
+            <itdZones value="310" selected="1">
+              <zoneElem>645</zoneElem>
+            </itdZones>
+            <itdZones value="311" selected="1">
+              <zoneElem>641</zoneElem>
+            </itdZones>
+            <itdZones value="312" selected="1">
+              <zoneElem>643</zoneElem>
+            </itdZones>
+            <itdZones value="313" selected="1">
+              <zoneElem>644</zoneElem>
+            </itdZones>
+            <itdZones value="314" selected="1">
+              <zoneElem>642</zoneElem>
+            </itdZones>
+            <itdZones value="315" selected="1">
+              <zoneElem>640</zoneElem>
+            </itdZones>
+            <itdZones value="316" selected="1">
+              <zoneElem>671</zoneElem>
+            </itdZones>
+            <itdZones value="317" selected="1">
+              <zoneElem>677</zoneElem>
+            </itdZones>
+            <itdZones value="318" selected="1">
+              <zoneElem>679</zoneElem>
+            </itdZones>
+            <itdZones value="319" selected="1">
+              <zoneElem>678</zoneElem>
+            </itdZones>
+            <itdZones value="320" selected="1">
+              <zoneElem>673</zoneElem>
+            </itdZones>
+            <itdZones value="321" selected="1">
+              <zoneElem>674</zoneElem>
+            </itdZones>
+            <itdZones value="322" selected="1">
+              <zoneElem>700</zoneElem>
+            </itdZones>
+            <itdZones value="323" selected="1">
+              <zoneElem>716</zoneElem>
+            </itdZones>
+            <itdZones value="324" selected="1">
+              <zoneElem>711</zoneElem>
+            </itdZones>
+            <itdZones value="325" selected="1">
+              <zoneElem>717</zoneElem>
+            </itdZones>
+            <itdZones value="326" selected="1">
+              <zoneElem>714</zoneElem>
+            </itdZones>
+            <itdZones value="327" selected="1">
+              <zoneElem>718</zoneElem>
+            </itdZones>
+            <itdZones value="328" selected="1">
+              <zoneElem>712</zoneElem>
+            </itdZones>
+            <itdZones value="329" selected="1">
+              <zoneElem>719</zoneElem>
+            </itdZones>
+            <itdZones value="330" selected="1">
+              <zoneElem>713</zoneElem>
+            </itdZones>
+            <itdZones value="331" selected="1">
+              <zoneElem>715</zoneElem>
+            </itdZones>
+            <itdZones value="332" selected="1">
+              <zoneElem>710</zoneElem>
+            </itdZones>
+            <itdZones value="333" selected="1">
+              <zoneElem>709</zoneElem>
+            </itdZones>
+            <itdZones value="334" selected="1">
+              <zoneElem>726</zoneElem>
+            </itdZones>
+            <itdZones value="335" selected="1">
+              <zoneElem>722</zoneElem>
+            </itdZones>
+            <itdZones value="336" selected="1">
+              <zoneElem>727</zoneElem>
+            </itdZones>
+            <itdZones value="337" selected="1">
+              <zoneElem>723</zoneElem>
+            </itdZones>
+            <itdZones value="338" selected="1">
+              <zoneElem>725</zoneElem>
+            </itdZones>
+            <itdZones value="339" selected="1">
+              <zoneElem>732</zoneElem>
+            </itdZones>
+            <itdZones value="340" selected="1">
+              <zoneElem>731</zoneElem>
+            </itdZones>
+            <itdZones value="341" selected="1">
+              <zoneElem>729</zoneElem>
+            </itdZones>
+            <itdZones value="342" selected="1">
+              <zoneElem>720</zoneElem>
+            </itdZones>
+            <itdZones value="343" selected="1">
+              <zoneElem>721</zoneElem>
+            </itdZones>
+            <itdZones value="344" selected="1">
+              <zoneElem>730</zoneElem>
+            </itdZones>
+            <itdZones value="345" selected="1">
+              <zoneElem>733</zoneElem>
+            </itdZones>
+            <itdZones value="346" selected="1">
+              <zoneElem>744</zoneElem>
+            </itdZones>
+            <itdZones value="347" selected="1">
+              <zoneElem>742</zoneElem>
+            </itdZones>
+            <itdZones value="348" selected="1">
+              <zoneElem>748</zoneElem>
+            </itdZones>
+            <itdZones value="349" selected="1">
+              <zoneElem>746</zoneElem>
+            </itdZones>
+            <itdZones value="350" selected="1">
+              <zoneElem>736</zoneElem>
+            </itdZones>
+            <itdZones value="351" selected="1">
+              <zoneElem>737</zoneElem>
+            </itdZones>
+            <itdZones value="352" selected="1">
+              <zoneElem>751</zoneElem>
+            </itdZones>
+            <itdZones value="353" selected="1">
+              <zoneElem>738</zoneElem>
+            </itdZones>
+            <itdZones value="354" selected="1">
+              <zoneElem>762</zoneElem>
+            </itdZones>
+            <itdZones value="355" selected="1">
+              <zoneElem>765</zoneElem>
+            </itdZones>
+            <itdZones value="356" selected="1">
+              <zoneElem>761</zoneElem>
+            </itdZones>
+            <itdZones value="357" selected="1">
+              <zoneElem>766</zoneElem>
+            </itdZones>
+            <itdZones value="358" selected="1">
+              <zoneElem>764</zoneElem>
+            </itdZones>
+            <itdZones value="359" selected="1">
+              <zoneElem>757</zoneElem>
+            </itdZones>
+            <itdZones value="360" selected="1">
+              <zoneElem>753</zoneElem>
+            </itdZones>
+            <itdZones value="361" selected="1">
+              <zoneElem>752</zoneElem>
+            </itdZones>
+            <itdZones value="362" selected="1">
+              <zoneElem>774</zoneElem>
+            </itdZones>
+            <itdZones value="363" selected="1">
+              <zoneElem>782</zoneElem>
+            </itdZones>
+            <itdZones value="364" selected="1">
+              <zoneElem>776</zoneElem>
+            </itdZones>
+            <itdZones value="365" selected="1">
+              <zoneElem>777</zoneElem>
+            </itdZones>
+            <itdZones value="366" selected="1">
+              <zoneElem>783</zoneElem>
+            </itdZones>
+            <itdZones value="367" selected="1">
+              <zoneElem>768</zoneElem>
+            </itdZones>
+            <itdZones value="368" selected="1">
+              <zoneElem>771</zoneElem>
+            </itdZones>
+            <itdZones value="369" selected="1">
+              <zoneElem>779</zoneElem>
+            </itdZones>
+            <itdZones value="370" selected="1">
+              <zoneElem>769</zoneElem>
+            </itdZones>
+            <itdZones value="371" selected="1">
+              <zoneElem>778</zoneElem>
+            </itdZones>
+            <itdZones value="372" selected="1">
+              <zoneElem>780</zoneElem>
+            </itdZones>
+            <itdZones value="373" selected="1">
+              <zoneElem>770</zoneElem>
+            </itdZones>
+            <itdZones value="374" selected="1">
+              <zoneElem>772</zoneElem>
+            </itdZones>
+            <itdZones value="375" selected="1">
+              <zoneElem>775</zoneElem>
+            </itdZones>
+            <itdZones value="376" selected="1">
+              <zoneElem>787</zoneElem>
+            </itdZones>
+            <itdZones value="377" selected="1">
+              <zoneElem>789</zoneElem>
+            </itdZones>
+            <itdZones value="378" selected="1">
+              <zoneElem>785</zoneElem>
+            </itdZones>
+            <itdZones value="379" selected="1">
+              <zoneElem>784</zoneElem>
+            </itdZones>
+            <itdZones value="380" selected="1">
+              <zoneElem>788</zoneElem>
+            </itdZones>
+            <itdZones value="381" selected="1">
+              <zoneElem>790</zoneElem>
+            </itdZones>
+            <itdZones value="382" selected="1">
+              <zoneElem>793</zoneElem>
+            </itdZones>
+            <itdZones value="383" selected="1">
+              <zoneElem>797</zoneElem>
+            </itdZones>
+            <itdZones value="384" selected="1">
+              <zoneElem>799</zoneElem>
+            </itdZones>
+            <itdZones value="385" selected="1">
+              <zoneElem>812</zoneElem>
+            </itdZones>
+            <itdZones value="386" selected="1">
+              <zoneElem>810</zoneElem>
+            </itdZones>
+            <itdZones value="387" selected="1">
+              <zoneElem>814</zoneElem>
+            </itdZones>
+            <itdZones value="388" selected="1">
+              <zoneElem>815</zoneElem>
+            </itdZones>
+            <itdZones value="389" selected="1">
+              <zoneElem>813</zoneElem>
+            </itdZones>
+            <itdZones value="390" selected="1">
+              <zoneElem>811</zoneElem>
+            </itdZones>
+            <itdZones value="391" selected="1">
+              <zoneElem>801</zoneElem>
+            </itdZones>
+            <itdZones value="392" selected="1">
+              <zoneElem>800</zoneElem>
+            </itdZones>
+            <itdZones value="393" selected="1">
+              <zoneElem>827</zoneElem>
+            </itdZones>
+            <itdZones value="394" selected="1">
+              <zoneElem>822</zoneElem>
+            </itdZones>
+            <itdZones value="395" selected="1">
+              <zoneElem>825</zoneElem>
+            </itdZones>
+            <itdZones value="396" selected="1">
+              <zoneElem>829</zoneElem>
+            </itdZones>
+            <itdZones value="397" selected="1">
+              <zoneElem>826</zoneElem>
+            </itdZones>
+            <itdZones value="398" selected="1">
+              <zoneElem>823</zoneElem>
+            </itdZones>
+            <itdZones value="399" selected="1">
+              <zoneElem>817</zoneElem>
+            </itdZones>
+            <itdZones value="400" selected="1">
+              <zoneElem>824</zoneElem>
+            </itdZones>
+            <itdZones value="401" selected="1">
+              <zoneElem>816</zoneElem>
+            </itdZones>
+            <itdZones value="402" selected="1">
+              <zoneElem>818</zoneElem>
+            </itdZones>
+            <itdZones value="403" selected="1">
+              <zoneElem>828</zoneElem>
+            </itdZones>
+            <itdZones value="404" selected="1">
+              <zoneElem>845</zoneElem>
+            </itdZones>
+            <itdZones value="405" selected="1">
+              <zoneElem>839</zoneElem>
+            </itdZones>
+            <itdZones value="406" selected="1">
+              <zoneElem>842</zoneElem>
+            </itdZones>
+            <itdZones value="407" selected="1">
+              <zoneElem>843</zoneElem>
+            </itdZones>
+            <itdZones value="408" selected="1">
+              <zoneElem>846</zoneElem>
+            </itdZones>
+            <itdZones value="409" selected="1">
+              <zoneElem>841</zoneElem>
+            </itdZones>
+            <itdZones value="410" selected="1">
+              <zoneElem>847</zoneElem>
+            </itdZones>
+            <itdZones value="411" selected="1">
+              <zoneElem>844</zoneElem>
+            </itdZones>
+            <itdZones value="412" selected="1">
+              <zoneElem>840</zoneElem>
+            </itdZones>
+            <itdZones value="413" selected="1">
+              <zoneElem>863</zoneElem>
+            </itdZones>
+            <itdZones value="414" selected="1">
+              <zoneElem>862</zoneElem>
+            </itdZones>
+            <itdZones value="415" selected="1">
+              <zoneElem>854</zoneElem>
+            </itdZones>
+            <itdZones value="416" selected="1">
+              <zoneElem>857</zoneElem>
+            </itdZones>
+            <itdZones value="417" selected="1">
+              <zoneElem>861</zoneElem>
+            </itdZones>
+            <itdZones value="418" selected="1">
+              <zoneElem>859</zoneElem>
+            </itdZones>
+            <itdZones value="419" selected="1">
+              <zoneElem>865</zoneElem>
+            </itdZones>
+            <itdZones value="420" selected="1">
+              <zoneElem>866</zoneElem>
+            </itdZones>
+            <itdZones value="421" selected="1">
+              <zoneElem>868</zoneElem>
+            </itdZones>
+            <itdZones value="422" selected="1">
+              <zoneElem>876</zoneElem>
+            </itdZones>
+            <itdZones value="423" selected="1">
+              <zoneElem>864</zoneElem>
+            </itdZones>
+            <itdZones value="424" selected="1">
+              <zoneElem>874</zoneElem>
+            </itdZones>
+            <itdZones value="425" selected="1">
+              <zoneElem>872</zoneElem>
+            </itdZones>
+            <itdZones value="426" selected="1">
+              <zoneElem>867</zoneElem>
+            </itdZones>
+            <itdZones value="427" selected="1">
+              <zoneElem>878</zoneElem>
+            </itdZones>
+            <itdZones value="428" selected="1">
+              <zoneElem>869</zoneElem>
+            </itdZones>
+            <itdZones value="429" selected="1">
+              <zoneElem>881</zoneElem>
+            </itdZones>
+            <itdZones value="430" selected="1">
+              <zoneElem>885</zoneElem>
+            </itdZones>
+            <itdZones value="431" selected="1">
+              <zoneElem>887</zoneElem>
+            </itdZones>
+            <itdZones value="432" selected="1">
+              <zoneElem>883</zoneElem>
+            </itdZones>
+            <itdZones value="433" selected="1">
+              <zoneElem>901</zoneElem>
+            </itdZones>
+            <itdZones value="434" selected="1">
+              <zoneElem>990</zoneElem>
+            </itdZones>
+            <itdZones value="435" selected="1">
+              <zoneElem>983</zoneElem>
+            </itdZones>
+            <itdZones value="436" selected="1">
+              <zoneElem>985</zoneElem>
+            </itdZones>
+            <itdZones value="437" selected="1">
+              <zoneElem>987</zoneElem>
+            </itdZones>
+            <itdZones value="438" selected="1">
+              <zoneElem>986</zoneElem>
+            </itdZones>
+            <itdZones value="439" selected="1">
+              <zoneElem>982</zoneElem>
+            </itdZones>
+            <itdZones value="440" selected="1">
+              <zoneElem>984</zoneElem>
+            </itdZones>
+            <itdZones value="441" selected="1">
+              <zoneElem>988</zoneElem>
+            </itdZones>
+            <itdZones value="442" selected="1">
+              <zoneElem>991</zoneElem>
+            </itdZones>
+            <itdZones value="443" selected="1">
+              <zoneElem>981</zoneElem>
+            </itdZones>
+            <itdZones value="444" selected="1">
+              <zoneElem>996</zoneElem>
+            </itdZones>
+            <itdZones value="445" selected="1">
+              <zoneElem>997</zoneElem>
+            </itdZones>
+            <itdZones value="446" selected="1">
+              <zoneElem>993</zoneElem>
+            </itdZones>
+            <itdZones value="447" selected="1">
+              <zoneElem>998</zoneElem>
+            </itdZones>
+            <itdZones value="448" selected="1">
+              <zoneElem>992</zoneElem>
+            </itdZones>
+            <itdZones value="449" selected="1">
+              <zoneElem>994</zoneElem>
+            </itdZones>
+            <itdZones value="450" selected="1">
+              <zoneElem>995</zoneElem>
+            </itdZones>
+          </itdTariffzones>
+        </tariffZones>
+      </itdPtOptions>
+      <itdItOptions>
+        <itRouter logASCII="false" logSVG="false" />
+        <itPedestrian computeMonomodalTrip="false" computationType="PT_AND_IT" itIncidentData="false" useElevation="false" speedFactor="100"
+          costFactor="0" distanceFactor="50" traveltimeFactor="50" noTunnel="false" noBridge="false" noFerry="false" maxTime="45" maxLength="2147483647"
+          ignoreRestrictions="false" />
+        <itBicycle preferAsphaltTracks="false" preferGreenTracks="false" usePseudoRouting="false" useSignedRoute="false" cycleSpeed="20" prefHikePath="false"
+          elevFac="50" bikeProf="UNKNOWN" computeMonomodalTrip="false" computationType="PT_AND_IT" itIncidentData="false" useElevation="false" speedFactor="100"
+          costFactor="0" distanceFactor="50" traveltimeFactor="50" noTunnel="false" noBridge="false" noFerry="false" maxTime="120" maxLength="2147483647"
+          ignoreRestrictions="false" />
+        <mitCar computeMonomodalTrip="false" computationType="PT_AND_IT" itIncidentData="false" useElevation="false" speedFactor="100" costFactor="0"
+          distanceFactor="10" traveltimeFactor="90" noTunnel="false" noBridge="false" noFerry="false" maxTime="120" maxLength="2147483647" ignoreRestrictions="false"
+          mitProfileData="false" mitIncidentData="false" mitOnlineData="false" noHighway="false" noTollRoad="false" />
+        <departureTransport>
+          <individualTransport meansCode="100" value="15" speed="normal" selected="1" />
+          <individualTransport meansCode="101" value="10" speed="normal" selected="0" />
+          <individualTransport meansCode="102" value="10" speed="normal" selected="0" />
+          <individualTransport meansCode="103" value="10" speed="normal" selected="0" />
+          <individualTransport meansCode="104" value="10" speed="normal" selected="0" />
+          <individualTransport meansCode="105" value="10" speed="normal" selected="0" />
+          <individualTransport meansCode="106" value="120" speed="normal" selected="0" />
+          <individualTransport meansCode="107" value="120" speed="normal" selected="0" />
+        </departureTransport>
+        <arrivalTransport>
+          <individualTransport meansCode="100" value="15" speed="normal" selected="1" />
+          <individualTransport meansCode="101" value="10" speed="normal" selected="0" />
+          <individualTransport meansCode="102" value="10" speed="normal" selected="0" />
+          <individualTransport meansCode="103" value="10" speed="normal" selected="0" />
+          <individualTransport meansCode="104" value="10" speed="normal" selected="0" />
+          <individualTransport meansCode="105" value="10" speed="normal" selected="0" />
+          <individualTransport meansCode="106" value="120" speed="normal" selected="0" />
+          <individualTransport meansCode="107" value="120" speed="normal" selected="0" />
+        </arrivalTransport>
+      </itdItOptions>
+      <itdUsedOptions calcNumberOfTrips="1" dwellTime="00:00" nextDepsPerLeg="0" calcCO2="0" />
+    </itdTripOptions>
+    <itdItinerary>
+      <itdRouteList>
+        <itdRoute active="1" selected="1" changes="0" distance="978" routeIndex="0" routeTripIndex="0" alternative="0" print="0" delete="0" searchMode="0"
+          cTime="20110614003304972" method="itp" individualDuration="00:15" vehicleTime="2" publicDuration="00:17"
+        >
+          <itdMapItemList>
+            <itdMapItem text="" type="RM">
+              <itdImage src="FILELOAD?Filename=b_w_4DF690210.pdf" />
+            </itdMapItem>
+          </itdMapItemList>
+          <itdPartialRouteList>
+            <itdPartialRoute type="IT" active="1" timeMinute="11" distance="747" bookingCode="SVRN9_375644900R1T0PR0" partialRouteType="normalPartialRoute">
+              <itdPoint stopID="99999997" area="0" platform="" name="Mannheim Start" nameWO="" platformName="" usage="departure" x="8477293" y="49496560"
+                mapName="WGS84" omc="-1" placeID="-1" locality=""
+              >
+                <itdMapItemList>
+                  <itdMapItem text="" type="RM">
+                    <itdImage src="FILELOAD?Filename=b_w_4DF690211.pdf" />
+                  </itdMapItem>
+                </itdMapItemList>
+                <itdDateTime>
+                  <itdDate year="2011" month="6" day="5" weekday="1" />
+                  <itdTime hour="17" minute="47" />
+                </itdDateTime>
+                <itdDateTimeTarget>
+                  <itdDate year="2011" month="6" day="5" weekday="1" />
+                  <itdTime hour="17" minute="47" />
+                </itdDateTimeTarget>
+              </itdPoint>
+              <itdPoint stopID="6005544" area="0" platform="Fuß" name="Mannheim, Universitätsklinikum" nameWO="Universitätsklinikum" platformName=""
+                usage="arrival" x="8484074" y="49493668" mapName="WGS84" omc="8222000" placeID="18" locality="Mannheim" georef="2147006021:5:NBWT"
+              >
+                <itdMapItemList>
+                  <itdMapItem text="" type="RM">
+                    <itdImage src="FILELOAD?Filename=b_w_4DF690212.pdf" />
+                  </itdMapItem>
+                </itdMapItemList>
+                <itdDateTime>
+                  <itdDate year="2011" month="6" day="5" weekday="1" />
+                  <itdTime hour="17" minute="58" />
+                </itdDateTime>
+                <itdDateTimeTarget>
+                  <itdDate year="2011" month="6" day="5" weekday="1" />
+                  <itdTime hour="17" minute="58" />
+                </itdDateTimeTarget>
+              </itdPoint>
+              <itdMeansOfTransport name="" shortname="" symbol="" type="100" productName="Fussweg" destination="" network="" TTB="0" STT="0"
+                ROP="0" destID="" spTr=""
+              >
+                <motDivaParams line="" project="" direction=" " supplement=" " network="" />
+              </itdMeansOfTransport>
+              <itdStopSeq>
+                <itdPoint stopID="6005544" area="0" platform="Fuß" name="Mannheim, Universitätsklinikum" platformName="" usage="" x="3462698" y="675782"
+                  mapName="NBWT" omc="8222000" placeID="18"
+                >
+                  <itdDateTime>
+                    <itdDate year="0" month="0" day="-1" weekday="-1" />
+                    <itdTime hour="0" minute="-1" />
+                  </itdDateTime>
+                  <itdDateTime>
+                    <itdDate year="2011" month="6" day="5" weekday="1" />
+                    <itdTime hour="17" minute="58" />
+                  </itdDateTime>
+                </itdPoint>
+              </itdStopSeq>
+              <itdPathCoordinates>
+                <coordEllipsoid>WGS84</coordEllipsoid>
+                <coordType>GEO_DECIMAL</coordType>
+                <itdCoordinateString decimal="." cs="," ts="&amp;#x20;">8477293,49496560 8477335,49496497 8477157,49496442 8478086,49496060
+                  8477844,49495429 8478992,49495219 8479255,49495103 8479160,49494932 8478953,49494940 8479162,49494815 8479606,49494538 8479676,49494520
+                  8480119,49494397 8480064,49494369 8480064,49494342 8481239,49494141 8482720,49493797 8483261,49493574 8483592,49493522 8483990,49493749
+                  8484074,49493668 8484074,49493668</itdCoordinateString>
+                <itdCoordinateReductionList />
+              </itdPathCoordinates>
+              <itdITPathDescription altitudeDiffUp="" altitudeDiffDown="">
+                <itdITPathDescriptionList>
+                  <itdITPathDescriptionElem>
+                    <turnDirection>STRAIGHT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8477335" y="49496497" mapName="WGS84" />
+                    <streetname>Obere Clignetstraße</streetname>
+                    <fromPathLinkIdx>0</fromPathLinkIdx>
+                    <toPathLinkIdx>0</toPathLinkIdx>
+                    <fromPathCoordIdx>0</fromPathCoordIdx>
+                    <toPathCoordIdx>1</toPathCoordIdx>
+                    <skyDirection>66</skyDirection>
+                    <traveltime>12</traveltime>
+                    <cumTraveltime>12</cumTraveltime>
+                    <distance>14</distance>
+                    <cumDistance>14</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem altitudeDiffUp="1022228320" altitudeDiffDown="1022228824">
+                    <turnDirection>SHARP_LEFT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8477157" y="49496442" mapName="WGS84" />
+                    <streetname>Eichendorffstraße</streetname>
+                    <fromPathLinkIdx>1</fromPathLinkIdx>
+                    <toPathLinkIdx>1</toPathLinkIdx>
+                    <fromPathCoordIdx>1</fromPathCoordIdx>
+                    <toPathCoordIdx>2</toPathCoordIdx>
+                    <skyDirection>303</skyDirection>
+                    <traveltime>60</traveltime>
+                    <cumTraveltime>72</cumTraveltime>
+                    <distance>80</distance>
+                    <cumDistance>94</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem altitudeDiffUp="1022228824" altitudeDiffDown="1022228320">
+                    <turnDirection>RIGHT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8478086" y="49496060" mapName="WGS84" />
+                    <streetname>Untere Clignetstraße</streetname>
+                    <fromPathLinkIdx>2</fromPathLinkIdx>
+                    <toPathLinkIdx>2</toPathLinkIdx>
+                    <fromPathCoordIdx>2</fromPathCoordIdx>
+                    <toPathCoordIdx>3</toPathCoordIdx>
+                    <skyDirection>14</skyDirection>
+                    <traveltime>8</traveltime>
+                    <cumTraveltime>80</cumTraveltime>
+                    <distance>72</distance>
+                    <cumDistance>166</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem altitudeDiffUp="1022228320" altitudeDiffDown="1022228824">
+                    <turnDirection>LEFT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8477844" y="49495429" mapName="WGS84" />
+                    <streetname>Käfertaler Straße</streetname>
+                    <fromPathLinkIdx>3</fromPathLinkIdx>
+                    <toPathLinkIdx>3</toPathLinkIdx>
+                    <fromPathCoordIdx>3</fromPathCoordIdx>
+                    <toPathCoordIdx>4</toPathCoordIdx>
+                    <skyDirection>286</skyDirection>
+                    <traveltime>13</traveltime>
+                    <cumTraveltime>93</cumTraveltime>
+                    <distance>86</distance>
+                    <cumDistance>252</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem altitudeDiffUp="816175816" altitudeDiffDown="816175312">
+                    <turnDirection>STRAIGHT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8478992" y="49495219" mapName="WGS84" />
+                    <streetname></streetname>
+                    <fromPathLinkIdx>4</fromPathLinkIdx>
+                    <toPathLinkIdx>8</toPathLinkIdx>
+                    <fromPathCoordIdx>4</fromPathCoordIdx>
+                    <toPathCoordIdx>12</toPathCoordIdx>
+                    <skyDirection>304</skyDirection>
+                    <traveltime>69</traveltime>
+                    <cumTraveltime>162</cumTraveltime>
+                    <distance>169</distance>
+                    <cumDistance>421</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem altitudeDiffUp="2044457144" altitudeDiffDown="2044457144">
+                    <turnDirection>SLIGHT_LEFT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8480064" y="49494369" mapName="WGS84" />
+                    <streetname>Schafweide</streetname>
+                    <fromPathLinkIdx>9</fromPathLinkIdx>
+                    <toPathLinkIdx>10</toPathLinkIdx>
+                    <fromPathCoordIdx>12</fromPathCoordIdx>
+                    <toPathCoordIdx>17</toPathCoordIdx>
+                    <skyDirection>0</skyDirection>
+                    <traveltime>55</traveltime>
+                    <cumTraveltime>217</cumTraveltime>
+                    <distance>276</distance>
+                    <cumDistance>697</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem altitudeDiffUp="1022228824" altitudeDiffDown="1022228320">
+                    <turnDirection>SLIGHT_LEFT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8483592" y="49493522" mapName="WGS84" />
+                    <streetname>Friedrich-Ebert-Brücke</streetname>
+                    <fromPathLinkIdx>11</fromPathLinkIdx>
+                    <toPathLinkIdx>11</toPathLinkIdx>
+                    <fromPathCoordIdx>17</fromPathCoordIdx>
+                    <toPathCoordIdx>18</toPathCoordIdx>
+                    <skyDirection>229</skyDirection>
+                    <traveltime>29</traveltime>
+                    <cumTraveltime>246</cumTraveltime>
+                    <distance>38</distance>
+                    <cumDistance>735</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem>
+                    <turnDirection>RIGHT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8484074" y="49493659" mapName="WGS84" />
+                    <streetname></streetname>
+                    <fromPathLinkIdx>12</fromPathLinkIdx>
+                    <toPathLinkIdx>12</toPathLinkIdx>
+                    <fromPathCoordIdx>18</fromPathCoordIdx>
+                    <toPathCoordIdx>19</toPathCoordIdx>
+                    <skyDirection>327</skyDirection>
+                    <traveltime>25</traveltime>
+                    <cumTraveltime>271</cumTraveltime>
+                    <distance>12</distance>
+                    <cumDistance>747</cumDistance>
+                  </itdITPathDescriptionElem>
+                </itdITPathDescriptionList>
+              </itdITPathDescription>
+            </itdPartialRoute>
+            <itdPartialRoute type="PT" active="1" timeMinute="2" bookingCode="SVRN9_375644900R1T0PR1" partialRouteType="normalPartialRoute">
+              <itdPoint stopID="6005544" area="0" platform="Fuß" name="Mannheim, Universitätsklinikum" nameWO="Universitätsklinikum" platformName=""
+                usage="departure" x="8484074" y="49493668" mapName="WGS84" omc="8222000" placeID="18" locality="Mannheim" georef="2147006021:5:NBWT"
+              >
+                <itdMapItemList>
+                  <itdMapItem text="" type="RM">
+                    <itdImage src="FILELOAD?Filename=b_w_4DF690212.pdf" />
+                  </itdMapItem>
+                </itdMapItemList>
+                <itdDateTime>
+                  <itdDate year="2011" month="6" day="5" weekday="1" />
+                  <itdTime hour="17" minute="58" />
+                </itdDateTime>
+                <itdDateTimeTarget>
+                  <itdDate year="2011" month="6" day="5" weekday="1" />
+                  <itdTime hour="17" minute="58" />
+                </itdDateTimeTarget>
+              </itdPoint>
+              <itdPoint stopID="6002444" area="1" platform="Fuß" name="Mannheim, Nationaltheater" nameWO="Nationaltheater" platformName="" usage="arrival"
+                x="8477719" y="49487714" mapName="WGS84" omc="8222000" placeID="18" locality="Mannheim" georef="2147005056:10:NBWT"
+              >
+                <itdMapItemList>
+                  <itdMapItem text="" type="RM">
+                    <itdImage src="FILELOAD?Filename=b_w_4DF690213.pdf" />
+                  </itdMapItem>
+                </itdMapItemList>
+                <itdDateTime>
+                  <itdDate year="2011" month="6" day="5" weekday="1" />
+                  <itdTime hour="18" minute="0" />
+                </itdDateTime>
+                <itdDateTimeTarget>
+                  <itdDate year="2011" month="6" day="5" weekday="1" />
+                  <itdTime hour="18" minute="0" />
+                </itdDateTimeTarget>
+              </itdPoint>
+              <itdMeansOfTransport name="Straßenbahn RNV 7" shortname="RNV 7" symbol="7" type="4" motType="4" productName="Straßenbahn"
+                destination="Oppau, Endstelle" network="vrn" TTB="0" STT="0" ROP="1" destID="6002181" spTr=""
+              >
+                <motDivaParams line="08007" project="w11" direction="R" supplement="s" network="vrn" />
+                <itdOperator>
+                  <code>04</code>
+                  <name>MVV Verkehr AG</name>
+                </itdOperator>
+              </itdMeansOfTransport>
+              <itdStopSeq>
+                <itdPoint stopID="6005544" area="0" platform="GeoTr" name="Mannheim, Universitätsklinikum" platformName="" usage="" x="3462699" y="675783"
+                  mapName="NBWT" omc="8222000" placeID="18"
+                >
+                  <itdDateTime>
+                    <itdDate year="2011" month="6" day="5" weekday="1" />
+                    <itdTime hour="17" minute="58" />
+                  </itdDateTime>
+                </itdPoint>
+                <itdPoint stopID="6005543" area="0" platform="GeoTr" name="Mannheim, Theresienkrankenhaus" platformName="" usage="" x="3462454" y="676206"
+                  mapName="NBWT" omc="8222000" placeID="18"
+                >
+                  <itdDateTime>
+                    <itdDate year="2011" month="6" day="5" weekday="1" />
+                    <itdTime hour="17" minute="59" />
+                  </itdDateTime>
+                </itdPoint>
+                <itdPoint stopID="6002444" area="1" platform="TrRIW" name="Mannheim, Nationaltheater" platformName="" usage="" x="3462193" y="676445"
+                  mapName="NBWT" omc="8222000" placeID="18"
+                >
+                  <itdDateTime>
+                    <itdDate year="2011" month="6" day="5" weekday="1" />
+                    <itdTime hour="18" minute="0" />
+                  </itdDateTime>
+                </itdPoint>
+              </itdStopSeq>
+              <itdPathCoordinates>
+                <coordEllipsoid>WGS84</coordEllipsoid>
+                <coordType>GEO_DECIMAL</coordType>
+                <itdCoordinateString decimal="." cs="," ts="&amp;#x20;">8484088,49493659 8483841,49493496 8483457,49493234 8482813,49492790
+                  8480719,49489850 8480719,49489850 8479536,49488172 8479166,49487910 8478492,49487718 8477167,49487667</itdCoordinateString>
+                <itdCoordinateReductionList />
+              </itdPathCoordinates>
+            </itdPartialRoute>
+            <itdPartialRoute type="IT" active="1" timeMinute="4" distance="239" bookingCode="SVRN9_375644900R1T0PR2" partialRouteType="normalPartialRoute">
+              <itdPoint stopID="6002444" area="1" platform="Fuß" name="Mannheim, Nationaltheater" nameWO="Nationaltheater" platformName="" usage="departure"
+                x="8477719" y="49487714" mapName="WGS84" omc="8222000" placeID="18" locality="Mannheim" georef="2147005056:10:NBWT"
+              >
+                <itdMapItemList>
+                  <itdMapItem text="" type="RM">
+                    <itdImage src="FILELOAD?Filename=b_w_4DF690213.pdf" />
+                  </itdMapItem>
+                </itdMapItemList>
+                <itdDateTime>
+                  <itdDate year="2011" month="6" day="5" weekday="1" />
+                  <itdTime hour="18" minute="0" />
+                </itdDateTime>
+                <itdDateTimeTarget>
+                  <itdDate year="2011" month="6" day="5" weekday="1" />
+                  <itdTime hour="18" minute="0" />
+                </itdDateTimeTarget>
+              </itdPoint>
+              <itdPoint stopID="99999998" area="0" platform="" name="Mannheim Dest" nameWO="" platformName="" usage="arrival" x="8477303" y="49486561"
+                mapName="WGS84" omc="-1" placeID="-1" locality=""
+              >
+                <itdMapItemList>
+                  <itdMapItem text="" type="RM">
+                    <itdImage src="FILELOAD?Filename=b_w_4DF690214.pdf" />
+                  </itdMapItem>
+                </itdMapItemList>
+                <itdDateTime>
+                  <itdDate year="2011" month="6" day="5" weekday="1" />
+                  <itdTime hour="18" minute="4" />
+                </itdDateTime>
+                <itdDateTimeTarget>
+                  <itdDate year="2011" month="6" day="5" weekday="1" />
+                  <itdTime hour="18" minute="4" />
+                </itdDateTimeTarget>
+              </itdPoint>
+              <itdMeansOfTransport name="" shortname="" symbol="" type="100" productName="Fussweg" destination="" network="" TTB="0" STT="0"
+                ROP="0" destID="" spTr=""
+              >
+                <motDivaParams line="" project="" direction=" " supplement=" " network="" />
+              </itdMeansOfTransport>
+              <itdStopSeq>
+                <itdPoint stopID="6002444" area="1" platform="Fuß" name="Mannheim, Nationaltheater" platformName="" usage="" x="3462233" y="676441"
+                  mapName="NBWT" omc="8222000" placeID="18"
+                >
+                  <itdDateTime>
+                    <itdDate year="2011" month="6" day="5" weekday="1" />
+                    <itdTime hour="18" minute="0" />
+                  </itdDateTime>
+                  <itdDateTime>
+                    <itdDate year="0" month="0" day="-1" weekday="-1" />
+                    <itdTime hour="0" minute="-1" />
+                  </itdDateTime>
+                </itdPoint>
+              </itdStopSeq>
+              <itdPathCoordinates>
+                <coordEllipsoid>WGS84</coordEllipsoid>
+                <coordType>GEO_DECIMAL</coordType>
+                <itdCoordinateString decimal="." cs="," ts="&amp;#x20;">8477719,49487714 8477733,49487714 8477720,49487606 8478644,49487620
+                  8478714,49487539 8478129,49486799 8477342,49486840 8477303,49486561</itdCoordinateString>
+                <itdCoordinateReductionList />
+              </itdPathCoordinates>
+              <itdITPathDescription altitudeDiffUp="2044457144" altitudeDiffDown="2044457144">
+                <itdITPathDescriptionList>
+                  <itdITPathDescriptionElem>
+                    <turnDirection>STRAIGHT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8477733" y="49487714" mapName="WGS84" />
+                    <streetname></streetname>
+                    <fromPathLinkIdx>0</fromPathLinkIdx>
+                    <toPathLinkIdx>0</toPathLinkIdx>
+                    <fromPathCoordIdx>0</fromPathCoordIdx>
+                    <toPathCoordIdx>1</toPathCoordIdx>
+                    <skyDirection>3</skyDirection>
+                    <traveltime>213</traveltime>
+                    <cumTraveltime>213</cumTraveltime>
+                    <distance>12</distance>
+                    <cumDistance>12</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem altitudeDiffUp="1022228320" altitudeDiffDown="1022228824">
+                    <turnDirection>LEFT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8477720" y="49487606" mapName="WGS84" />
+                    <streetname>Goethestraße</streetname>
+                    <fromPathLinkIdx>1</fromPathLinkIdx>
+                    <toPathLinkIdx>1</toPathLinkIdx>
+                    <fromPathCoordIdx>1</fromPathCoordIdx>
+                    <toPathCoordIdx>2</toPathCoordIdx>
+                    <skyDirection>269</skyDirection>
+                    <traveltime>223</traveltime>
+                    <cumTraveltime>436</cumTraveltime>
+                    <distance>67</distance>
+                    <cumDistance>79</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem altitudeDiffUp="1022228824" altitudeDiffDown="1022228320">
+                    <turnDirection>SLIGHT_RIGHT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8478644" y="49487620" mapName="WGS84" />
+                    <streetname>Berliner Straße</streetname>
+                    <fromPathLinkIdx>2</fromPathLinkIdx>
+                    <toPathLinkIdx>2</toPathLinkIdx>
+                    <fromPathCoordIdx>2</fromPathCoordIdx>
+                    <toPathCoordIdx>4</toPathCoordIdx>
+                    <skyDirection>331</skyDirection>
+                    <traveltime>50</traveltime>
+                    <cumTraveltime>486</cumTraveltime>
+                    <distance>103</distance>
+                    <cumDistance>182</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem>
+                    <turnDirection>SLIGHT_RIGHT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8477342" y="49486840" mapName="WGS84" />
+                    <streetname>Lameystraße</streetname>
+                    <fromPathLinkIdx>3</fromPathLinkIdx>
+                    <toPathLinkIdx>3</toPathLinkIdx>
+                    <fromPathCoordIdx>4</fromPathCoordIdx>
+                    <toPathCoordIdx>5</toPathCoordIdx>
+                    <skyDirection>95</skyDirection>
+                    <traveltime>32</traveltime>
+                    <cumTraveltime>518</cumTraveltime>
+                    <distance>57</distance>
+                    <cumDistance>239</cumDistance>
+                  </itdITPathDescriptionElem>
+                </itdITPathDescriptionList>
+              </itdITPathDescription>
+            </itdPartialRoute>
+          </itdPartialRouteList>
+          <itdFare>
+            <itdSingleTicket net="vrn" toPR="2" fromPR="0" currency="EUR" unitName="Preisstufe" fareAdult="2.20" fareChild="1.70" unitsAdult=""
+              unitsChild="" fareBikeAdult="" fareBikeChild="" unitsBikeAdult="" unitsBikeChild="" levelAdult="" levelChild=""
+            >
+              Ludwigshfn./Mannheim
+              <itdGenericTicketList>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>Tarif VRN</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>0</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>0</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>Einzelfahrschein mit Bahncard</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value>MA</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>1.70</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>0.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>Mehrfahrtenkarte</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value>MA</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>1.98</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>1.36</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>Ticket24</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value>MA</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>5.30</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>0.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>Ticket24plus</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value>MA</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>9.30</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>0.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>Drei-Tageskarte</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value>MA</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>13.30</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>0.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>Wochenkarte</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value>MA</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>19.50</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>0.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>Monatskarte</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value>MA</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>58.50</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>0.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>Jahreskarte</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value>MA</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>600.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>0.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>Wochenkarte Ausbildung</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value>MA</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>0.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>16.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>Monatskarte Ausbildung</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value>MA</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>0.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>47.50</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>Jahreskarte Ausbildung</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value>MA</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>0.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>34.80</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>MAXX-Ticket</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>0.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>417.60</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>SuperMAXX-Ticket</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>0.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>804.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>RheinNeckar-Ticket</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>852.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>0.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>Monatskarte Senioren</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value>MA</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>47.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>0.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+                <itdGenericTicketGroup>
+                  <itdGenericTicket>
+                    <ticket>TICKETTYPE</ticket>
+                    <value>Karte ab 60</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CATEGORY</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_ADULT</ticket>
+                    <value>393.60</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>FARE_CHILD</ticket>
+                    <value>0.00</value>
+                  </itdGenericTicket>
+                  <itdGenericTicket>
+                    <ticket>CURRENCY_CODE</ticket>
+                    <value></value>
+                  </itdGenericTicket>
+                </itdGenericTicketGroup>
+              </itdGenericTicketList>
+            </itdSingleTicket>
+            <itdCommuterFares net="vrn" toPR="2" fromPR="0" currency="Euro" weekAdult="" weekChild="" monthAdult="" monthChild=""
+              weekEducation="" monthEducation="" yearAdults="" yearChildren="" yearStudents="" dayAdults="" dayChildren="" dayStudents="" levelAdult="1"
+              levelChild="1" />
+            <itdTariffzones net="vrn" toPR="2" fromPR="0" neutralZone="">
+              <itdZones value="0" selected="0">
+                <zoneElem>94</zoneElem>
+              </itdZones>
+            </itdTariffzones>
+          </itdFare>
+          <itdDaysOfService />
+          <itdResTL RVB="000007FF000000000000000000000000000000000000000000000000" />
+          <seqRoutes>
+            <seqRoute publicDuration="00:17">1-3</seqRoute>
+          </seqRoutes>
+        </itdRoute>
+        <itdRoute active="1" selected="1" changes="0" distance="1379" routeIndex="-1" routeTripIndex="-1" alternative="0" print="0" delete="0"
+          searchMode="0" cTime="20110614003304909" method="auto" individualDuration="00:20" vehicleTime="0" publicDuration="00:20"
+        >
+          <itdMapItemList>
+            <itdMapItem text="" type="RM">
+              <itdImage src="FILELOAD?Filename=b_w_4DF690200.pdf" />
+            </itdMapItem>
+          </itdMapItemList>
+          <itdPartialRouteList>
+            <itdPartialRoute type="IT" active="1" timeMinute="20" distance="1379" bookingCode="" partialRouteType="normalPartialRoute">
+              <itdPoint stopID="99999997" area="" platform="" name="Mannheim Start" nameWO="" platformName="" usage="departure" x="8477293" y="49496560"
+                mapName="WGS84" omc="8222000" placeID="18" locality="Mannheim"
+              >
+                <itdMapItemList>
+                  <itdMapItem text="" type="RM">
+                    <itdImage src="FILELOAD?Filename=b_w_4DF690201.pdf" />
+                  </itdMapItem>
+                </itdMapItemList>
+                <itdDateTime>
+                  <itdDate year="2011" month="6" day="5" weekday="1" />
+                  <itdTime hour="17" minute="47" />
+                </itdDateTime>
+                <itdDateTimeTarget>
+                  <itdDate year="2011" month="6" day="5" weekday="1" />
+                  <itdTime hour="17" minute="47" />
+                </itdDateTimeTarget>
+              </itdPoint>
+              <itdPoint stopID="99999998" area="" platform="" name="Mannheim Dest" nameWO="" platformName="" usage="arrival" x="8477303" y="49486561"
+                mapName="WGS84" omc="8222000" placeID="18" locality="Mannheim"
+              >
+                <itdMapItemList>
+                  <itdMapItem text="" type="RM">
+                    <itdImage src="FILELOAD?Filename=b_w_4DF690201.pdf" />
+                  </itdMapItem>
+                </itdMapItemList>
+                <itdDateTime>
+                  <itdDate year="2011" month="6" day="5" weekday="1" />
+                  <itdTime hour="18" minute="7" />
+                </itdDateTime>
+                <itdDateTimeTarget>
+                  <itdDate year="2011" month="6" day="5" weekday="1" />
+                  <itdTime hour="18" minute="7" />
+                </itdDateTimeTarget>
+              </itdPoint>
+              <itdMeansOfTransport name="" shortname="" symbol="" type="100" productName="Fussweg" destination="" network="" TTB="0" STT="0"
+                ROP="0" destID="" spTr=""
+              >
+                <motDivaParams line="" project="" direction=" " supplement=" " network="" />
+              </itdMeansOfTransport>
+              <itdPathCoordinates>
+                <coordEllipsoid>WGS84</coordEllipsoid>
+                <coordType>GEO_DECIMAL</coordType>
+                <itdCoordinateString decimal="." cs="," ts="&amp;#x20;">8477293,49496560 8477335,49496497 8477157,49496442 8476056,49496078
+                  8476514,49495846 8476944,49495704 8476945,49495542 8476694,49494480 8477428,49494259 8477223,49491506 8477144,49491110 8476678,49490803
+                  8476458,49490784 8476058,49490719 8475809,49490772 8475698,49490798 8475467,49490518 8475705,49490142 8476116,49489200 8476173,49488966
+                  8476218,49488679 8476253,49487932 8476228,49487717 8476164,49487294 8476126,49486934 8476402,49486899 8477342,49486840 8477303,49486561
+                </itdCoordinateString>
+                <itdCoordinateReductionList />
+              </itdPathCoordinates>
+              <itdITPathDescription altitudeDiffUp="" altitudeDiffDown="">
+                <itdITPathDescriptionList>
+                  <itdITPathDescriptionElem>
+                    <turnDirection>STRAIGHT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8477335" y="49496497" mapName="WGS84" />
+                    <streetname>Obere Clignetstraße</streetname>
+                    <fromPathLinkIdx>0</fromPathLinkIdx>
+                    <toPathLinkIdx>1</toPathLinkIdx>
+                    <fromPathCoordIdx>0</fromPathCoordIdx>
+                    <toPathCoordIdx>2</toPathCoordIdx>
+                    <skyDirection>66</skyDirection>
+                    <traveltime>92</traveltime>
+                    <cumTraveltime>92</cumTraveltime>
+                    <distance>103</distance>
+                    <cumDistance>103</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem>
+                    <turnDirection>SHARP_LEFT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8476056" y="49496078" mapName="WGS84" />
+                    <streetname>Käfertaler Straße</streetname>
+                    <fromPathLinkIdx>2</fromPathLinkIdx>
+                    <toPathLinkIdx>2</toPathLinkIdx>
+                    <fromPathCoordIdx>2</fromPathCoordIdx>
+                    <toPathCoordIdx>4</toPathCoordIdx>
+                    <skyDirection>308</skyDirection>
+                    <traveltime>67</traveltime>
+                    <cumTraveltime>159</cumTraveltime>
+                    <distance>77</distance>
+                    <cumDistance>180</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem>
+                    <turnDirection>SLIGHT_RIGHT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8476944" y="49495704" mapName="WGS84" />
+                    <streetname></streetname>
+                    <fromPathLinkIdx>3</fromPathLinkIdx>
+                    <toPathLinkIdx>3</toPathLinkIdx>
+                    <fromPathCoordIdx>4</fromPathCoordIdx>
+                    <toPathCoordIdx>5</toPathCoordIdx>
+                    <skyDirection>0</skyDirection>
+                    <traveltime>16</traveltime>
+                    <cumTraveltime>175</cumTraveltime>
+                    <distance>18</distance>
+                    <cumDistance>198</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem>
+                    <turnDirection>STRAIGHT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8476945" y="49495542" mapName="WGS84" />
+                    <streetname></streetname>
+                    <fromPathLinkIdx>4</fromPathLinkIdx>
+                    <toPathLinkIdx>4</toPathLinkIdx>
+                    <fromPathCoordIdx>5</fromPathCoordIdx>
+                    <toPathCoordIdx>6</toPathCoordIdx>
+                    <skyDirection>9</skyDirection>
+                    <traveltime>108</traveltime>
+                    <cumTraveltime>283</cumTraveltime>
+                    <distance>120</distance>
+                    <cumDistance>318</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem>
+                    <turnDirection>LEFT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8476694" y="49494480" mapName="WGS84" />
+                    <streetname>Neckarpromenade</streetname>
+                    <fromPathLinkIdx>5</fromPathLinkIdx>
+                    <toPathLinkIdx>5</toPathLinkIdx>
+                    <fromPathCoordIdx>6</fromPathCoordIdx>
+                    <toPathCoordIdx>7</toPathCoordIdx>
+                    <skyDirection>295</skyDirection>
+                    <traveltime>52</traveltime>
+                    <cumTraveltime>335</cumTraveltime>
+                    <distance>59</distance>
+                    <cumDistance>377</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem>
+                    <turnDirection>SLIGHT_RIGHT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8477428" y="49494259" mapName="WGS84" />
+                    <streetname>Collinisteg</streetname>
+                    <fromPathLinkIdx>6</fromPathLinkIdx>
+                    <toPathLinkIdx>6</toPathLinkIdx>
+                    <fromPathCoordIdx>7</fromPathCoordIdx>
+                    <toPathCoordIdx>8</toPathCoordIdx>
+                    <skyDirection>3</skyDirection>
+                    <traveltime>275</traveltime>
+                    <cumTraveltime>610</cumTraveltime>
+                    <distance>306</distance>
+                    <cumDistance>683</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem>
+                    <turnDirection>STRAIGHT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8477223" y="49491506" mapName="WGS84" />
+                    <streetname>Durchgang Collini Center</streetname>
+                    <fromPathLinkIdx>7</fromPathLinkIdx>
+                    <toPathLinkIdx>7</toPathLinkIdx>
+                    <fromPathCoordIdx>8</fromPathCoordIdx>
+                    <toPathCoordIdx>11</toPathCoordIdx>
+                    <skyDirection>8</skyDirection>
+                    <traveltime>97</traveltime>
+                    <cumTraveltime>707</cumTraveltime>
+                    <distance>109</distance>
+                    <cumDistance>792</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem>
+                    <turnDirection>STRAIGHT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8476458" y="49490784" mapName="WGS84" />
+                    <streetname></streetname>
+                    <fromPathLinkIdx>8</fromPathLinkIdx>
+                    <toPathLinkIdx>8</toPathLinkIdx>
+                    <fromPathCoordIdx>11</fromPathCoordIdx>
+                    <toPathCoordIdx>12</toPathCoordIdx>
+                    <skyDirection>76</skyDirection>
+                    <traveltime>26</traveltime>
+                    <cumTraveltime>733</cumTraveltime>
+                    <distance>30</distance>
+                    <cumDistance>822</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem>
+                    <turnDirection>SLIGHT_RIGHT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8476058" y="49490719" mapName="WGS84" />
+                    <streetname>Collinistraße</streetname>
+                    <fromPathLinkIdx>9</fromPathLinkIdx>
+                    <toPathLinkIdx>10</toPathLinkIdx>
+                    <fromPathCoordIdx>12</fromPathCoordIdx>
+                    <toPathCoordIdx>14</toPathCoordIdx>
+                    <skyDirection>108</skyDirection>
+                    <traveltime>24</traveltime>
+                    <cumTraveltime>757</cumTraveltime>
+                    <distance>28</distance>
+                    <cumDistance>850</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem>
+                    <turnDirection>LEFT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8475698" y="49490798" mapName="WGS84" />
+                    <streetname></streetname>
+                    <fromPathLinkIdx>11</fromPathLinkIdx>
+                    <toPathLinkIdx>11</toPathLinkIdx>
+                    <fromPathCoordIdx>14</fromPathCoordIdx>
+                    <toPathCoordIdx>15</toPathCoordIdx>
+                    <skyDirection>29</skyDirection>
+                    <traveltime>31</traveltime>
+                    <cumTraveltime>788</cumTraveltime>
+                    <distance>35</distance>
+                    <cumDistance>885</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem>
+                    <turnDirection>SLIGHT_LEFT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8475467" y="49490518" mapName="WGS84" />
+                    <streetname>Friedrichsring</streetname>
+                    <fromPathLinkIdx>12</fromPathLinkIdx>
+                    <toPathLinkIdx>19</toPathLinkIdx>
+                    <fromPathCoordIdx>15</fromPathCoordIdx>
+                    <toPathCoordIdx>23</toPathCoordIdx>
+                    <skyDirection>338</skyDirection>
+                    <traveltime>362</traveltime>
+                    <cumTraveltime>1150</cumTraveltime>
+                    <distance>406</distance>
+                    <cumDistance>1291</cumDistance>
+                  </itdITPathDescriptionElem>
+                  <itdITPathDescriptionElem>
+                    <turnDirection>LEFT</turnDirection>
+                    <turningManoeuvre>UNKNOWN_TURNING_MANOEUVRE</turningManoeuvre>
+                    <itdCoord x="8476126" y="49486934" mapName="WGS84" />
+                    <streetname>Lameystraße</streetname>
+                    <fromPathLinkIdx>20</fromPathLinkIdx>
+                    <toPathLinkIdx>21</toPathLinkIdx>
+                    <fromPathCoordIdx>23</fromPathCoordIdx>
+                    <toPathCoordIdx>25</toPathCoordIdx>
+                    <skyDirection>281</skyDirection>
+                    <traveltime>80</traveltime>
+                    <cumTraveltime>1230</cumTraveltime>
+                    <distance>88</distance>
+                    <cumDistance>1379</cumDistance>
+                  </itdITPathDescriptionElem>
+                </itdITPathDescriptionList>
+              </itdITPathDescription>
+            </itdPartialRoute>
+          </itdPartialRouteList>
+          <itdFare />
+          <itdDaysOfService />
+          <itdResTL RVB="" />
+          <seqRoutes>
+            <seqRoute publicDuration="00:20">1-1</seqRoute>
+          </seqRoutes>
+        </itdRoute>
+      </itdRouteList>
+    </itdItinerary>
+  </itdTripRequest>
+</itdRequest>
+

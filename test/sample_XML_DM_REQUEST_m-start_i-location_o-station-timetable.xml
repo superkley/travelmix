@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+Input: Start = Mannheim, Rheinstrasse
+
+http://fahrplanauskunft.vrn.de/vrn_mobile/XML_DM_REQUEST?sessionID=0&requestID=0&language=de&locationServerActive=1&useRealtime=1&anySigWhenPerfectNoOtherMatches=1&limit=10&deleteAssignedStops_dm=1&mode=direct&convertCrossingsITKernel2LocationServer=1&convertStopsPTKernel2LocationServer=1&convertAddressesITKernel2LocationServer=1&convertPOIsITKernel2LocationServer=1&itdLPxx_dest=&useAllStops=1&maxAssignedStops=1&itOptionsActive=1&trITMOTvalue100=5&ptOptionsActive=1&useProxFootSearch=0&itdLPxx_script=true&useHouseNumberList_dm=1&place_dm=&placeState_dm=empty&nameState_dm=empty&nameInfo_dm=invalid&typeInfo_dm=invalid&placeInfo_dm=invalid&reducedAnyWithoutAddressObjFilter_dm=103&reducedAnyPostcodeObjFilter_dm=64&reducedAnyTooManyObjFilter_dm=2&anyObjFilter_dm=127&anyHitListReductionLimit=40&anyMaxSizeHitList=550&type_dm=any&name_dm=mannheim%2C+rheinstra%C3%9Fe&itdTimeHour=16&itdTimeMinute=10&itdDate=20110603
+-->
+<itdRequest version="9.16.23.1" language="de" lengthUnit="METER" sessionID="VRN9_451326403" client="Firefox" clientIP="134.155.250.56" serverID="VRN9_4"
+  virtDir="vrn_mobile" now="2011-06-03T17:37:33" nowWD="6"
+>
+  <clientHeaderLines>
+    <headerLine>
+      <name>DNT</name>
+      <value>1</value>
+    </headerLine>
+    <headerLine>
+      <name>ACCEPT</name>
+      <value>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</value>
+    </headerLine>
+    <headerLine>
+      <name>HOST</name>
+      <value>fahrplanauskunft.vrn.de</value>
+    </headerLine>
+    <headerLine>
+      <name>USER-AGENT</name>
+      <value>Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15</value>
+    </headerLine>
+    <headerLine>
+      <name>ACCEPT-LANGUAGE</name>
+      <value>en,zh-cn;q=0.7,de;q=0.3</value>
+    </headerLine>
+    <headerLine>
+      <name>ACCEPT-CHARSET</name>
+      <value>ISO-8859-1,utf-8;q=0.7,*;q=0.7</value>
+    </headerLine>
+    <headerLine>
+      <name>CONNECTION</name>
+      <value>keep-alive</value>
+    </headerLine>
+    <headerLine>
+      <name>ACCEPT-ENCODING</name>
+      <value>gzip,deflate</value>
+    </headerLine>
+    <headerLine>
+      <name>KEEP-ALIVE</name>
+      <value>115</value>
+    </headerLine>
+  </clientHeaderLines>
+  <itdLayoutParams>
+    <itdLayoutParam name="dest" value="" />
+    <itdLayoutParam name="script" value="true" />
+  </itdLayoutParams>
+  <serverMetaInfo>
+    <serviceAreaInfo>
+      <serviceArea name="" net="b_w" selected="1" />
+      <serviceArea name="" net="999" selected="1" />
+      <serviceArea name="" net="0" selected="1" />
+      <serviceArea name="" net="1" selected="1" />
+      <serviceArea name="" net="2" selected="1" />
+      <serviceArea name="" net="3" selected="1" />
+      <serviceArea name="" net="4" selected="1" />
+      <serviceArea name="" net="5" selected="1" />
+      <serviceArea name="" net="6" selected="1" />
+      <serviceArea name="" net="7" selected="1" />
+      <serviceArea name="" net="8" selected="1" />
+      <serviceArea name="" net="9" selected="1" />
+      <serviceArea name="" net="10" selected="1" />
+      <serviceArea name="" net="11" selected="1" />
+      <serviceArea name="" net="12" selected="1" />
+      <serviceArea name="" net="13" selected="1" />
+      <serviceArea name="" net="14" selected="1" />
+      <serviceArea name="" net="15" selected="1" />
+      <serviceArea name="" net="219" selected="1" />
+      <serviceArea name="" net="Schweden" selected="1" />
+      <serviceArea name="" net="Deutsche Bahn" selected="1" />
+      <serviceArea name="" net="Luxemburg" selected="1" />
+      <serviceArea name="" net="Dänemark" selected="1" />
+      <serviceArea name="" net="Warschau" selected="1" />
+      <serviceArea name="" net="Skane/Malmö" selected="1" />
+      <serviceArea name="" net="Stockholm" selected="1" />
+      <serviceArea name="" net="Västtrafik" selected="1" />
+      <serviceArea name="" net="Berlin-Brandenburg" selected="1" />
+      <serviceArea name="" net="Rhein-Neckar" selected="1" />
+      <serviceArea name="" net="Baden-Württemberg" selected="1" />
+      <serviceArea name="" net="Norddeutschland" selected="1" />
+      <serviceArea name="" net="Hamburg" selected="1" />
+      <serviceArea name="" net="Bremen" selected="1" />
+      <serviceArea name="" net="Schleswig-Holstein" selected="1" />
+      <serviceArea name="" net="Niedersachsen" selected="1" />
+      <serviceArea name="" net="Saarland" selected="1" />
+      <serviceArea name="" net="Alsace" selected="1" />
+      <serviceArea name="" net="Dummy" selected="1" />
+      <serviceArea name="" net="Internationale Flughäfen" selected="1" />
+      <serviceArea name="" net="Alle Regionen" selected="1" />
+      <serviceArea name="" net="999" selected="1" />
+      <serviceArea name="" net="Schweden" selected="1" />
+      <serviceArea name="" net="Deutsche Bahn" selected="1" />
+      <serviceArea name="" net="Luxemburg" selected="1" />
+      <serviceArea name="" net="Dänemark" selected="1" />
+      <serviceArea name="" net="Warschau" selected="1" />
+      <serviceArea name="" net="Skane/Malmö" selected="1" />
+      <serviceArea name="" net="Stockholm" selected="1" />
+      <serviceArea name="" net="Västtrafik" selected="1" />
+      <serviceArea name="" net="Berlin-Brandenburg" selected="1" />
+      <serviceArea name="" net="Rhein-Neckar" selected="1" />
+      <serviceArea name="" net="Baden-Württemberg" selected="1" />
+      <serviceArea name="" net="Norddeutschland" selected="1" />
+      <serviceArea name="" net="Hamburg" selected="1" />
+      <serviceArea name="" net="Bremen" selected="1" />
+      <serviceArea name="" net="Schleswig-Holstein" selected="1" />
+      <serviceArea name="" net="Niedersachsen" selected="1" />
+      <serviceArea name="" net="Saarland" selected="1" />
+      <serviceArea name="" net="Alsace" selected="1" />
+      <serviceArea name="" net="Dummy" selected="1" />
+      <serviceArea name="" net="Internationale Flughäfen" selected="1" />
+      <serviceArea name="" net="Alle Regionen" selected="1" />
+    </serviceAreaInfo>
+  </serverMetaInfo>
+  <itdDepartureMonitorRequest requestID="1">
+    <itdOdv type="any" usage="dm" anyObjFilter="127">
+      <itdOdvPlace state="identified" method="itp">
+        <odvPlaceElem omc="8222000" placeID="18" value="8222000:18" span="9" type="local" mainPlace="1" x="3461399" y="676428" mapName="NBWT">Mannheim
+        </odvPlaceElem>
+        <odvPlaceInput></odvPlaceInput>
+      </itdOdvPlace>
+      <itdOdvName state="identified" method="itp">
+        <odvNameElem x="3460793" y="676065" mapName="NBWT" id="6002458" omc="8222000" placeID="18" anyType="stop" locality="Mannheim" objectName="Rheinstraße"
+          buildingName="" buildingNumber="" postCode="" streetName="" nameKey="" posttown="Mannheim"
+        >Mannheim, Rheinstraße</odvNameElem>
+        <odvNameInput>mannheim, rheinstraße</odvNameInput>
+      </itdOdvName>
+      <itdOdvAssignedStops select="0">
+        <itdOdvAssignedStop stopID="6002458" x="3460793" y="676065" mapName="NBWT" value="6002458:Rheinstraße" place="Mannheim"
+          nameWithPlace="Mannheim, Rheinstraße" distanceTime="0" isTransferStop="0"
+        >Rheinstraße</itdOdvAssignedStop>
+      </itdOdvAssignedStops>
+      <genAttrList>
+        <genAttrElem>
+          <name>anyObjFilter</name>
+          <value>PLACE</value>
+        </genAttrElem>
+        <genAttrElem>
+          <name>anyObjFilter</name>
+          <value>STOP</value>
+        </genAttrElem>
+        <genAttrElem>
+          <name>anyObjFilter</name>
+          <value>STREET</value>
+        </genAttrElem>
+        <genAttrElem>
+          <name>anyObjFilter</name>
+          <value>ADDRESS</value>
+        </genAttrElem>
+        <genAttrElem>
+          <name>anyObjFilter</name>
+          <value>CROSSING</value>
+        </genAttrElem>
+        <genAttrElem>
+          <name>anyObjFilter</name>
+          <value>POI</value>
+        </genAttrElem>
+        <genAttrElem>
+          <name>anyObjFilter</name>
+          <value>POSTCODE</value>
+        </genAttrElem>
+      </genAttrList>
+    </itdOdv>
+    <itdDateTime ttpFrom="20110502" ttpTo="20111210">
+      <itdDate weekday="6" year="2011" month="6" day="3" />
+      <itdTime hour="16" minute="10" />
+    </itdDateTime>
+    <itdDateRange>
+      <itdDate day="03" month="06" year="2011" weekday="6" />
+      <itdDate day="04" month="06" year="2011" weekday="7" />
+      <itdDate day="05" month="06" year="2011" weekday="1" />
+      <itdDate day="06" month="06" year="2011" weekday="2" />
+      <itdDate day="07" month="06" year="2011" weekday="3" />
+      <itdDate day="08" month="06" year="2011" weekday="4" />
+      <itdDate day="09" month="06" year="2011" weekday="5" />
+      <itdDate day="10" month="06" year="2011" weekday="6" />
+      <itdDate day="11" month="06" year="2011" weekday="7" />
+      <itdDate day="12" month="06" year="2011" weekday="1" />
+      <itdDate day="13" month="06" year="2011" weekday="2" />
+      <itdDate day="14" month="06" year="2011" weekday="3" />
+      <itdDate day="15" month="06" year="2011" weekday="4" />
+      <itdDate day="16" month="06" year="2011" weekday="5" />
+      <itdDate day="17" month="06" year="2011" weekday="6" />
+    </itdDateRange>
+    <itdTripOptions>
+      <itdPtOptions>
+        <excludedMeans>
+          <meansElem value="0" selected="0">Zug</meansElem>
+          <meansElem value="1" selected="0">S-Bahn</meansElem>
+          <meansElem value="2" selected="0">U-Bahn</meansElem>
+          <meansElem value="3" selected="0">Stadtbahn</meansElem>
+          <meansElem value="4" selected="0">Straßen-/Trambahn</meansElem>
+          <meansElem value="5" selected="0">Stadtbus</meansElem>
+          <meansElem value="6" selected="0">Regionalbus</meansElem>
+          <meansElem value="7" selected="0">Schnellbus</meansElem>
+          <meansElem value="8" selected="0">Seil-/Zahnradbahn</meansElem>
+          <meansElem value="9" selected="0">Schiff</meansElem>
+          <meansElem value="10" selected="0">AST/Rufbus</meansElem>
+          <meansElem value="11" selected="0">Sonstige</meansElem>
+        </excludedMeans>
+      </itdPtOptions>
+      <itdItOptions>
+        <itRouter logASCII="false" logSVG="false" />
+        <itPedestrian computeMonomodalTrip="false" computationType="PT_AND_IT" itIncidentData="false" useElevation="false" speedFactor="100"
+          costFactor="0" distanceFactor="50" traveltimeFactor="50" noTunnel="false" noBridge="false" noFerry="false" maxTime="45" maxLength="2147483647"
+          ignoreRestrictions="false" />
+        <itBicycle preferAsphaltTracks="false" preferGreenTracks="false" usePseudoRouting="false" useSignedRoute="false" cycleSpeed="20" prefHikePath="false"
+          elevFac="50" bikeProf="UNKNOWN" computeMonomodalTrip="false" computationType="PT_AND_IT" itIncidentData="false" useElevation="false" speedFactor="100"
+          costFactor="0" distanceFactor="50" traveltimeFactor="50" noTunnel="false" noBridge="false" noFerry="false" maxTime="120" maxLength="2147483647"
+          ignoreRestrictions="false" />
+        <mitCar computeMonomodalTrip="false" computationType="PT_AND_IT" itIncidentData="false" useElevation="false" speedFactor="100" costFactor="0"
+          distanceFactor="10" traveltimeFactor="90" noTunnel="false" noBridge="false" noFerry="false" maxTime="120" maxLength="2147483647" ignoreRestrictions="false"
+          mitProfileData="false" mitIncidentData="false" mitOnlineData="false" noHighway="false" noTollRoad="false" />
+        <departureTransport>
+          <individualTransport meansCode="100" value="5" speed="normal" selected="1" />
+          <individualTransport meansCode="101" value="10" speed="normal" selected="0" />
+          <individualTransport meansCode="102" value="10" speed="normal" selected="0" />
+          <individualTransport meansCode="103" value="10" speed="normal" selected="0" />
+          <individualTransport meansCode="104" value="10" speed="normal" selected="0" />
+          <individualTransport meansCode="105" value="10" speed="normal" selected="0" />
+          <individualTransport meansCode="106" value="120" speed="normal" selected="0" />
+          <individualTransport meansCode="107" value="120" speed="normal" selected="0" />
+        </departureTransport>
+      </itdItOptions>
+    </itdTripOptions>
+    <itdServingLines>
+      <itdServingLine selected="1" code="4" number="RNV 2" symbol="2" motType="4" realtime="0" direction="Neckarstadt West"
+        valid="Winter 2010/11 (12.12.2010 - 11.06.2011)" compound="0" TTB="0" STT="0" ROP="0" type="unknown" spTr="" destID="6002446" stateless="vrn:09002:s:H:w11"
+        trainName="" index="4:0"
+      >
+        <itdNoTrain name="Straßenbahn" />
+        <motDivaParams line="09002" project="w11" direction="H" supplement="s" network="vrn" />
+        <itdRouteDescText>MA Feudenheim - Universitätsklinikum - Wasserturm - Paradeplatz -</itdRouteDescText>
+        <itdOperator>
+          <code>04</code>
+          <name>MVV Verkehr AG</name>
+        </itdOperator>
+      </itdServingLine>
+      <itdServingLine selected="1" code="4" number="RNV 2" symbol="2" motType="4" realtime="0" direction="Feudenheim, Endstelle"
+        valid="Winter 2010/11 (12.12.2010 - 11.06.2011)" compound="0" TTB="0" STT="0" ROP="0" type="unknown" spTr="" destID="6002315" stateless="vrn:09002:s:R:w11"
+        trainName="" index="4:1"
+      >
+        <itdNoTrain name="Straßenbahn" />
+        <motDivaParams line="09002" project="w11" direction="R" supplement="s" network="vrn" />
+        <itdRouteDescText>MA Neckarstadt West - Alte Feuerwache - Rheinstraße -</itdRouteDescText>
+        <itdOperator>
+          <code>04</code>
+          <name>MVV Verkehr AG</name>
+        </itdOperator>
+      </itdServingLine>
+      <itdServingLine selected="1" code="4" number="RNV 3" symbol="3" motType="4" realtime="0" direction="Sandhofen, Endstelle"
+        valid="Winter 2010/11 (12.12.2010 - 11.06.2011)" compound="0" TTB="0" STT="0" ROP="0" type="unknown" spTr="" destID="6002567" stateless="vrn:09003:s:H:w11"
+        trainName="" index="4:2"
+      >
+        <itdNoTrain name="Straßenbahn" />
+        <motDivaParams line="09003" project="w11" direction="H" supplement="s" network="vrn" />
+        <itdRouteDescText>MA Rheingoldhalle - Neckarau West - Lindenhof - MA Hbf -</itdRouteDescText>
+        <itdOperator>
+          <code>35</code>
+          <name>Gem.linien MVV/VBL</name>
+        </itdOperator>
+      </itdServingLine>
+      <itdServingLine selected="1" code="4" number="RNV 3" symbol="3" motType="4" realtime="0" direction="Neckarau, Rheingoldhalle"
+        valid="Winter 2010/11 (12.12.2010 - 11.06.2011)" compound="0" TTB="0" STT="0" ROP="0" type="unknown" spTr="" destID="6002501" stateless="vrn:09003:s:R:w11"
+        trainName="" index="4:3"
+      >
+        <itdNoTrain name="Straßenbahn" />
+        <motDivaParams line="09003" project="w11" direction="R" supplement="s" network="vrn" />
+        <itdRouteDescText>MA Sandhofen - Luzenberg - Paradeplatz - Wasserturm -</itdRouteDescText>
+        <itdOperator>
+          <code>35</code>
+          <name>Gem.linien MVV/VBL</name>
+        </itdOperator>
+      </itdServingLine>
+      <itdServingLine selected="1" code="4" number="RNV 6" symbol="6" motType="4" realtime="0" direction="Rheingönheim, Endstelle"
+        valid="Winter 2010/11 (12.12.2010 - 11.06.2011)" compound="0" TTB="0" STT="0" ROP="0" type="unknown" spTr="" destID="6002197" stateless="vrn:08006:s:H:w11"
+        trainName="" index="4:4"
+      >
+        <itdNoTrain name="Straßenbahn" />
+        <motDivaParams line="08006" project="w11" direction="H" supplement="s" network="vrn" />
+        <itdRouteDescText>MA Neuostheim - Wasserturm - Paradeplatz - Lu Rheingh.</itdRouteDescText>
+        <itdOperator>
+          <code>35</code>
+          <name>Gem.linien MVV/VBL</name>
+        </itdOperator>
+      </itdServingLine>
+      <itdServingLine selected="1" code="4" number="RNV 6" symbol="6" motType="4" realtime="0" direction="Neuhermsheim, Rangierbahnhof"
+        valid="Winter 2010/11 (12.12.2010 - 11.06.2011)" compound="0" TTB="0" STT="0" ROP="0" type="unknown" spTr="" destID="6002522" stateless="vrn:08006:s:R:w11"
+        trainName="" index="4:5"
+      >
+        <itdNoTrain name="Straßenbahn" />
+        <motDivaParams line="08006" project="w11" direction="R" supplement="s" network="vrn" />
+        <itdRouteDescText>LU Rheingönheim - Am Schwanen - LU Berliner Platz - MA Neuostheim</itdRouteDescText>
+        <itdOperator>
+          <code>35</code>
+          <name>Gem.linien MVV/VBL</name>
+        </itdOperator>
+      </itdServingLine>
+      <itdServingLine selected="1" code="4" number="RNV 6A" symbol="6A" motType="4" realtime="0" direction="Neuhermsheim, Rangierbahnhof"
+        valid="Winter 2010/11 (12.12.2010 - 11.06.2011)" compound="0" TTB="0" STT="0" ROP="0" type="unknown" spTr="" destID="6002641" stateless="vrn:08006:a:R:w11"
+        trainName="" index="4:6"
+      >
+        <itdNoTrain name="Straßenbahn" />
+        <motDivaParams line="08006" project="w11" direction="R" supplement="a" network="vrn" />
+        <itdRouteDescText>LU Rheingönheim - Am Schwanen - LU Berliner Platz - MA Neuostheim</itdRouteDescText>
+        <itdOperator>
+          <code>35</code>
+          <name>Gem.linien MVV/VBL</name>
+        </itdOperator>
+      </itdServingLine>
+      <itdServingLine selected="1" code="3" number="RNV 6" symbol="6" motType="5" realtime="0" direction="Ludwigshafen, Berliner Platz"
+        valid="Winter 2010/11 (12.12.2010 - 11.06.2011)" compound="0" TTB="0" STT="0" ROP="0" type="unknown" spTr="" destID="6002066" stateless="vrn:08006:b:H:w11"
+        trainName="" index="5:0"
+      >
+        <itdNoTrain name="Bus" />
+        <motDivaParams line="08006" project="w11" direction="H" supplement="b" network="vrn" />
+        <itdRouteDescText>MA Neuostheim - Wasserturm - Paradeplatz - LU Rheingönheim</itdRouteDescText>
+        <itdOperator>
+          <code>35</code>
+          <name>Gem.linien MVV/VBL</name>
+        </itdOperator>
+      </itdServingLine>
+    </itdServingLines>
+    <itdDepartureList>
+      <itdDeparture stopID="6002458" x="3460787" y="676060" mapName="NBWT" area="1" platform="S2Tr" platformName="" stopName="Mannheim, Rheinstraße"
+        nameWO="Rheinstraße" countdown="1"
+      >
+        <itdDateTime>
+          <itdDate year="2011" month="6" day="3" weekday="6" />
+          <itdTime hour="16" minute="11" ap="" />
+        </itdDateTime>
+        <itdServingLine key="1533" code="4" number="RNV 6" symbol="RNV 6" motType="4" realtime="0" direction="Rheingönheim, Endstelle" trainNum="0"
+          destID="6002197" stateless="vrn:08006:s:H:w11"
+        >
+          <itdNoTrain name="Straßenbahn" />
+          <motDivaParams line="08006" project="w11" direction="H" supplement="s" network="vrn" />
+        </itdServingLine>
+      </itdDeparture>
+      <itdDeparture stopID="6002458" x="3460789" y="676073" mapName="NBWT" area="2" platform="STr" platformName="" stopName="Mannheim, Rheinstraße"
+        nameWO="Rheinstraße" countdown="3"
+      >
+        <itdDateTime>
+          <itdDate year="2011" month="6" day="3" weekday="6" />
+          <itdTime hour="16" minute="13" ap="" />
+        </itdDateTime>
+        <itdServingLine key="1603" code="4" number="RNV 2" symbol="RNV 2" motType="4" realtime="0" direction="Feudenheim, Endstelle" trainNum="0"
+          destID="6002315" stateless="vrn:09002:s:R:w11"
+        >
+          <itdNoTrain name="Straßenbahn" />
+          <motDivaParams line="09002" project="w11" direction="R" supplement="s" network="vrn" />
+        </itdServingLine>
+      </itdDeparture>
+      <itdDeparture stopID="6002458" x="3460789" y="676073" mapName="NBWT" area="2" platform="STr" platformName="" stopName="Mannheim, Rheinstraße"
+        nameWO="Rheinstraße" countdown="7"
+      >
+        <itdDateTime>
+          <itdDate year="2011" month="6" day="3" weekday="6" />
+          <itdTime hour="16" minute="17" ap="" />
+        </itdDateTime>
+        <itdServingLine key="1545" code="4" number="RNV 2" symbol="RNV 2" motType="4" realtime="0" direction="Neckarstadt West" trainNum="0"
+          destID="6002446" stateless="vrn:09002:s:H:w11"
+        >
+          <itdNoTrain name="Straßenbahn" />
+          <motDivaParams line="09002" project="w11" direction="H" supplement="s" network="vrn" />
+        </itdServingLine>
+      </itdDeparture>
+      <itdDeparture stopID="6002458" x="3460787" y="676060" mapName="NBWT" area="1" platform="S2Tr" platformName="" stopName="Mannheim, Rheinstraße"
+        nameWO="Rheinstraße" countdown="9"
+      >
+        <itdDateTime>
+          <itdDate year="2011" month="6" day="3" weekday="6" />
+          <itdTime hour="16" minute="19" ap="" />
+        </itdDateTime>
+        <itdServingLine key="1539" code="4" number="RNV 6" symbol="RNV 6" motType="4" realtime="0" direction="Neuhermsheim, Rangierbahnhof"
+          trainNum="0" destID="6002641" stateless="vrn:08006:s:R:w11"
+        >
+          <itdNoTrain name="Straßenbahn" />
+          <motDivaParams line="08006" project="w11" direction="R" supplement="s" network="vrn" />
+        </itdServingLine>
+      </itdDeparture>
+      <itdDeparture stopID="6002458" x="3460787" y="676060" mapName="NBWT" area="1" platform="S2Tr" platformName="" stopName="Mannheim, Rheinstraße"
+        nameWO="Rheinstraße" countdown="11"
+      >
+        <itdDateTime>
+          <itdDate year="2011" month="6" day="3" weekday="6" />
+          <itdTime hour="16" minute="21" ap="" />
+        </itdDateTime>
+        <itdServingLine key="1550" code="4" number="RNV 6" symbol="RNV 6" motType="4" realtime="0" direction="Rheingönheim, Endstelle" trainNum="0"
+          destID="6002197" stateless="vrn:08006:s:H:w11"
+        >
+          <itdNoTrain name="Straßenbahn" />
+          <motDivaParams line="08006" project="w11" direction="H" supplement="s" network="vrn" />
+        </itdServingLine>
+      </itdDeparture>
+      <itdDeparture stopID="6002458" x="3460789" y="676073" mapName="NBWT" area="2" platform="STr" platformName="" stopName="Mannheim, Rheinstraße"
+        nameWO="Rheinstraße" countdown="13"
+      >
+        <itdDateTime>
+          <itdDate year="2011" month="6" day="3" weekday="6" />
+          <itdTime hour="16" minute="23" ap="" />
+        </itdDateTime>
+        <itdServingLine key="1613" code="4" number="RNV 2" symbol="RNV 2" motType="4" realtime="0" direction="Feudenheim, Endstelle" trainNum="0"
+          destID="6002315" stateless="vrn:09002:s:R:w11"
+        >
+          <itdNoTrain name="Straßenbahn" />
+          <motDivaParams line="09002" project="w11" direction="R" supplement="s" network="vrn" />
+        </itdServingLine>
+      </itdDeparture>
+      <itdDeparture stopID="6002458" x="3460789" y="676073" mapName="NBWT" area="2" platform="STr" platformName="" stopName="Mannheim, Rheinstraße"
+        nameWO="Rheinstraße" countdown="17"
+      >
+        <itdDateTime>
+          <itdDate year="2011" month="6" day="3" weekday="6" />
+          <itdTime hour="16" minute="27" ap="" />
+        </itdDateTime>
+        <itdServingLine key="1605" code="4" number="RNV 2" symbol="RNV 2" motType="4" realtime="0" direction="Neckarstadt West" trainNum="0"
+          destID="6002446" stateless="vrn:09002:s:H:w11"
+        >
+          <itdNoTrain name="Straßenbahn" />
+          <motDivaParams line="09002" project="w11" direction="H" supplement="s" network="vrn" />
+        </itdServingLine>
+      </itdDeparture>
+      <itdDeparture stopID="6002458" x="3460787" y="676060" mapName="NBWT" area="1" platform="S2Tr" platformName="" stopName="Mannheim, Rheinstraße"
+        nameWO="Rheinstraße" countdown="19"
+      >
+        <itdDateTime>
+          <itdDate year="2011" month="6" day="3" weekday="6" />
+          <itdTime hour="16" minute="29" ap="" />
+        </itdDateTime>
+        <itdServingLine key="1607" code="4" number="RNV 6A" symbol="RNV 6A" motType="4" realtime="0" direction="Neuhermsheim, Rangierbahnhof"
+          trainNum="0" destID="6002641" stateless="vrn:08006:a:R:w11"
+        >
+          <itdNoTrain name="Straßenbahn">als Linie 6A</itdNoTrain>
+          <motDivaParams line="08006" project="w11" direction="R" supplement="a" network="vrn" />
+        </itdServingLine>
+      </itdDeparture>
+      <itdDeparture stopID="6002458" x="3460787" y="676060" mapName="NBWT" area="1" platform="S2Tr" platformName="" stopName="Mannheim, Rheinstraße"
+        nameWO="Rheinstraße" countdown="21"
+      >
+        <itdDateTime>
+          <itdDate year="2011" month="6" day="3" weekday="6" />
+          <itdTime hour="16" minute="31" ap="" />
+        </itdDateTime>
+        <itdServingLine key="1553" code="4" number="RNV 6" symbol="RNV 6" motType="4" realtime="0" direction="Rheingönheim, Endstelle" trainNum="0"
+          destID="6002197" stateless="vrn:08006:s:H:w11"
+        >
+          <itdNoTrain name="Straßenbahn" />
+          <motDivaParams line="08006" project="w11" direction="H" supplement="s" network="vrn" />
+        </itdServingLine>
+      </itdDeparture>
+      <itdDeparture stopID="6002458" x="3460789" y="676073" mapName="NBWT" area="2" platform="STr" platformName="" stopName="Mannheim, Rheinstraße"
+        nameWO="Rheinstraße" countdown="23"
+      >
+        <itdDateTime>
+          <itdDate year="2011" month="6" day="3" weekday="6" />
+          <itdTime hour="16" minute="33" ap="" />
+        </itdDateTime>
+        <itdServingLine key="1623" code="4" number="RNV 2" symbol="RNV 2" motType="4" realtime="0" direction="Feudenheim, Endstelle" trainNum="0"
+          destID="6002315" stateless="vrn:09002:s:R:w11"
+        >
+          <itdNoTrain name="Straßenbahn" />
+          <motDivaParams line="09002" project="w11" direction="R" supplement="s" network="vrn" />
+        </itdServingLine>
+      </itdDeparture>
+    </itdDepartureList>
+  </itdDepartureMonitorRequest>
+</itdRequest>
+
